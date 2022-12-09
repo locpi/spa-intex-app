@@ -1,0 +1,24 @@
+services:
+  mosquito:
+    container_name: moqsuito
+    image: eclipse-mosquitto
+    mem_limit: 100m
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./mosquitto/config/:/mosquitto/config/
+      - ./mosquitto/log/:/mosquitto/log/
+  mongo:
+    image: mongo-express
+    container_name: mongo
+    mem_limit: 100m
+    ports:
+      - 8081:8081
+  app:
+    container_name: app
+    build:
+      dockerfile: .
+    ports:
+      - 8080:6500
+    mem_limit: 100m
