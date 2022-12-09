@@ -16,11 +16,9 @@ export class MqttMessageService {
   }
 
   public sendMessage(topic: string, payload: string): void {
-    if(environment.env!=='staging'){
       console.log('Publish', payload, topic);
       this._mqttService.unsafePublish(topic, payload, {
       });
-    }
   }
 
   public observe(topic: string): Observable<any> {

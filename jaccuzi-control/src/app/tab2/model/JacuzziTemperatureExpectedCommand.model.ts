@@ -8,14 +8,15 @@ import {TemperatureInformation} from "../../services/init-command.service";
 export class JacuzziTemperatureExpectedCommand {
 
   private readonly name: string;
-  private _temp: Subject<TemperatureInformation> = new Subject<TemperatureInformation>();
+  private tempSet: Subject<TemperatureInformation> = new Subject<TemperatureInformation>();
+  private tempGet: Subject<TemperatureInformation> = new Subject<TemperatureInformation>();
   private value: number = -999;
   private callable: boolean = true;
   private actualizeDate: Date = new Date();
 
   constructor() {
     this.name = 'Temperature cible'
-    this._temp.subscribe(state => {
+    this.tempGet.subscribe(state => {
       this.value = state.value
       this.actualizeDate = state.refreshDate;
     })
@@ -26,7 +27,7 @@ export class JacuzziTemperatureExpectedCommand {
     const temp = new TemperatureInformation();
     temp.value = value;
     temp.refreshDate = new Date();
-    this._temp.next(temp);
+    this.tempSet.next(temp);
   }
 
 
@@ -48,6 +49,10 @@ export class JacuzziTemperatureExpectedCommand {
 
 
   changeTemperature(): Subject<TemperatureInformation> {
-    return this._temp;
+    return this.tempSet;
+  }
+
+  getTemperature(): Subject<TemperatureInformation> {
+    return this.tempGet;
   }
 }

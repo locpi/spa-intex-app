@@ -17,7 +17,7 @@ export class TemperatureExpectedService {
       const temp = new TemperatureInformation();
       temp.refreshDate = new Date();
       temp.value = data.payload.toString() as number;
-      this.jacuzziTemperatureExpectedCommand.changeTemperature().next(temp)
+      this.jacuzziTemperatureExpectedCommand.getTemperature().next(temp)
     })
 
   }
