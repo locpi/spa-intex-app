@@ -18,7 +18,6 @@ const MQTT_SERVICE_OPTIONS: IMqttServiceOptions = {
   password: env.mqtt.password,
   clientId:env.mqtt.clientId
 };
-
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,MqttModule.forRoot(MQTT_SERVICE_OPTIONS),HttpClientModule],
