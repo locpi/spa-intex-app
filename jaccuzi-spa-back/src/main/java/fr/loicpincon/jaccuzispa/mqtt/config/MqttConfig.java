@@ -1,3 +1,4 @@
+
 package fr.loicpincon.jaccuzispa.mqtt.config;
 
 import java.util.UUID;

@@ -9,20 +9,37 @@ services:
     volumes:
       - ./mosquitto/config/:/mosquitto/config/
       - ./mosquitto/log/:/mosquitto/log/
-  db:
+    networks:
+      spa-network:
+        ipv4_address: 172.22.3.10
+  db-mongo:
     container_name: mongo-dev
     image: mongo:5.0
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_DATABASE=auth
+      - MONGO_INITDB_DATABASE=spaintex
       - MONGO_INITDB_ROOT_PASSWORD=pass
     ports:
       - '60017:27017'
-    volumes:
-      - ./data:/data/db
+    networks:
+      spa-network:
+        ipv4_address: 172.22.3.11
   app:
     container_name: app
     image: loic-app
     ports:
-      - 8080:6500
-    mem_limit: 100m
+      - 6500:6500
+    networks:
+      spa-network:
+        ipv4_address: 172.22.3.9
+    depends_on:
+      - mosquito
+      - db-mongo
+networks:
+  spa-network:
+    driver: bridge
+    name: spa-network
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.22.3.0/24

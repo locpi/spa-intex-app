@@ -22,16 +22,10 @@ class SoireeSpaServiceTest {
   @Mock
   private SoireeJaccuzRepository soireeJaccuzRepository;
 
-  @Test
-  void should_be_create_party() {
-    // GIVEN
-    Mockito.when(soireeJaccuzRepository.findAllByFinish(false)).thenReturn(List.of(build(LocalDateTime.of(2022, 1, 6, 22, 0, 0))));
-    // WHEN
-    service.planning(LocalDateTime.of(2022, 1, 6, 19, 0, 0), 12);
+  @Mock
+  private  SpaService spaService;
 
-    // THEN
 
-  }
 
   @Test
   void should_be_refuse_party() {

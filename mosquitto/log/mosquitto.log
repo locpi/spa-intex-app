@@ -3622,3 +3622,157 @@
 1670575817: New client connected from 172.22.0.1:56410 as admin-72 (p2, c1, k60, u'spa').
 1670575860: New client connected from 172.22.0.1:64282 as admin-24 (p2, c1, k60, u'spa').
 1670575860: Client admin-72 closed its connection.
+1670578292: mosquitto version 2.0.15 starting
+1670578292: Config loaded from /mosquitto/config/mosquitto.conf.
+1670578292: Opening ipv4 listen socket on port 1883.
+1670578292: Opening websockets listen socket on port 9001.
+1670578292: mosquitto version 2.0.15 running
+1670578292: New connection from 172.22.0.1:58176 on port 1883.
+1670578292: New client connected from 172.22.0.1:58176 as mqtt-explorer-e1c94bbc (p2, c1, k60, u'spa').
+1670578294: New connection from 172.22.0.1:58178 on port 1883.
+1670578294: New client connected from 172.22.0.1:58178 as Intex PureSpa SB-H20 (p2, c1, k15, u'spa').
+1670578302: New client connected from 172.22.0.1:57052 as admin-3 (p2, c1, k60, u'spa').
+1670578325: mosquitto version 2.0.15 terminating
+1670578325: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670578325: Client admin-3 closed its connection.
+1670578328: mosquitto version 2.0.15 starting
+1670578328: Config loaded from /mosquitto/config/mosquitto.conf.
+1670578328: Opening ipv4 listen socket on port 1883.
+1670578328: Opening websockets listen socket on port 9001.
+1670578328: mosquitto version 2.0.15 running
+1670578328: New connection from 172.22.0.1:55900 on port 1883.
+1670578328: New client connected from 172.22.0.1:55900 as mqtt-explorer-e1c94bbc (p2, c1, k60, u'spa').
+1670578328: New connection from 172.22.0.1:55902 on port 1883.
+1670578328: New client connected from 172.22.0.1:55902 as Intex PureSpa SB-H20 (p2, c1, k15, u'spa').
+1670578335: New client connected from 172.22.0.1:59002 as admin-3 (p2, c1, k60, u'spa').
+1670578396: New client connected from 172.22.0.1:59000 as admin-24 (p2, c1, k60, u'spa').
+1670578400: New connection from 172.22.0.1:55814 on port 1883.
+1670578401: New client connected from 172.22.0.1:55814 as app-cible (p2, c1, k60, u'spa').
+1670578431: Client app-cible closed its connection.
+1670578432: New connection from 172.22.0.1:58040 on port 1883.
+1670578432: New client connected from 172.22.0.1:58040 as app-cible (p2, c1, k60, u'spa').
+1670578455: New client connected from 172.22.0.1:60092 as admin-72 (p2, c1, k60, u'spa').
+1670578455: Client admin-24 closed its connection.
+1670578513: Client admin-72 closed its connection.
+1670578514: New client connected from 172.22.0.1:62364 as admin-24 (p2, c1, k60, u'spa').
+1670578571: New client connected from 172.22.0.1:63342 as admin-72 (p2, c1, k60, u'spa').
+1670578572: Client admin-24 closed its connection.
+1670578617: New client connected from 172.22.0.1:64788 as admin-24 (p2, c1, k60, u'spa').
+1670578617: Client admin-72 closed its connection.
+1670578645: Client app-cible closed its connection.
+1670578649: New connection from 172.22.0.1:60750 on port 1883.
+1670578649: New client connected from 172.22.0.1:60750 as app-cible (p2, c1, k60, u'spa').
+1670578650: Client app-cible closed its connection.
+1670578651: New connection from 172.22.0.1:60752 on port 1883.
+1670578651: New client connected from 172.22.0.1:60752 as app-cible (p2, c1, k60, u'spa').
+1670578677: New client connected from 172.22.0.1:60106 as admin-72 (p2, c1, k60, u'spa').
+1670578680: Client admin-24 closed its connection.
+1670578721: Client app-cible closed its connection.
+1670578726: New connection from 172.22.0.1:63584 on port 1883.
+1670578726: New client connected from 172.22.0.1:63584 as app-cible (p2, c1, k60, u'spa').
+1670578726: Client app-cible closed its connection.
+1670578727: New connection from 172.22.0.1:56006 on port 1883.
+1670578727: New client connected from 172.22.0.1:56006 as app-cible (p2, c1, k60, u'spa').
+1670578743: New client connected from 172.22.0.1:62604 as admin-24 (p2, c1, k60, u'spa').
+1670578744: Client admin-24 closed its connection.
+1670578744: Client admin-72 closed its connection.
+1670578746: New client connected from 172.22.0.1:63120 as admin-9 (p2, c1, k60, u'spa').
+1670578763: Client admin-9 closed its connection.
+1670578763: Client <unknown> closed its connection.
+1670578763: Client admin-3 closed its connection.
+1670578763: New client connected from 172.22.0.1:58626 as admin-35 (p2, c1, k60, u'spa').
+1670578763: New client connected from 172.22.0.1:58628 as admin-59 (p2, c1, k60, u'spa').
+1670578764: New client connected from 172.22.0.1:58630 as admin-66 (p2, c1, k60, u'spa').
+1670578771: Client admin-35 closed its connection.
+1670578771: New client connected from 172.22.0.1:62260 as admin-71 (p2, c1, k60, u'spa').
+1670578773: Client admin-71 closed its connection.
+1670578773: New client connected from 172.22.0.1:62262 as admin-62 (p2, c1, k60, u'spa').
+1670578797: Client admin-62 closed its connection.
+1670578797: New client connected from 172.22.0.1:58306 as admin-45 (p2, c1, k60, u'spa').
+1670578801: Client app-cible closed its connection.
+1670578805: New connection from 172.22.0.1:56368 on port 1883.
+1670578805: New client connected from 172.22.0.1:56368 as app-cible (p2, c1, k60, u'spa').
+1670578806: Client app-cible closed its connection.
+1670578809: Client admin-45 closed its connection.
+1670578809: New client connected from 172.22.0.1:65340 as admin-34 (p2, c1, k60, u'spa').
+1670578812: Client admin-34 closed its connection.
+1670578812: New client connected from 172.22.0.1:65342 as admin-64 (p2, c1, k60, u'spa').
+1670578823: Client admin-64 closed its connection.
+1670578823: New client connected from 172.22.0.1:63194 as admin-48 (p2, c1, k60, u'spa').
+1670578848: New connection from 172.22.0.1:62620 on port 1883.
+1670578849: New client connected from 172.22.0.1:62620 as app-cible (p2, c1, k60, u'spa').
+1670578849: Client app-cible closed its connection.
+1670578850: New connection from 172.22.0.1:62622 on port 1883.
+1670578850: New client connected from 172.22.0.1:62622 as app-cible (p2, c1, k60, u'spa').
+1670578854: Client admin-48 closed its connection.
+1670578854: New client connected from 172.22.0.1:58638 as admin-11 (p2, c1, k60, u'spa').
+1670578885: Client app-cible closed its connection.
+1670578889: New connection from 172.22.0.1:58966 on port 1883.
+1670578890: New client connected from 172.22.0.1:58966 as app-cible (p2, c1, k60, u'spa').
+1670578890: Client app-cible closed its connection.
+1670579059: Client admin-59 closed its connection.
+1670579222: New client connected from 172.22.0.1:63644 as admin-59 (p2, c1, k60, u'spa').
+1670579245: Client admin-11 closed its connection.
+1670579291: Client admin-59 closed its connection.
+1670579347: New client connected from 172.22.0.1:56754 as admin-59 (p2, c1, k60, u'spa').
+1670579404: New client connected from 172.22.0.1:59108 as admin-11 (p2, c1, k60, u'spa').
+1670579404: Client admin-59 closed its connection.
+1670579427: New connection from 172.22.0.1:59316 on port 1883.
+1670579427: New client connected from 172.22.0.1:59316 as app-cible (p2, c1, k60, u'spa').
+1670579427: Client app-cible closed its connection.
+1670579457: Client admin-11 closed its connection.
+1670579464: New client connected from 172.22.0.1:60254 as admin-59 (p2, c1, k60, u'spa').
+1670579521: Client admin-59 closed its connection.
+1670579523: New client connected from 172.22.0.1:64062 as admin-11 (p2, c1, k60, u'spa').
+1670579585: Client admin-11 closed its connection.
+1670579604: New client connected from 172.22.0.1:60300 as admin-59 (p2, c1, k60, u'spa').
+1670579653: Client admin-59 closed its connection.
+1670579662: New client connected from 172.22.0.1:59072 as admin-11 (p2, c1, k60, u'spa').
+1670579697: Client admin-11 closed its connection.
+1670579697: New client connected from 172.22.0.1:57900 as admin-59 (p2, c1, k60, u'spa').
+1670579757: New client connected from 172.22.0.1:64862 as admin-11 (p2, c1, k60, u'spa').
+1670579765: Client admin-59 closed its connection.
+1670579818: New client connected from 172.22.0.1:61522 as admin-59 (p2, c1, k60, u'spa').
+1670579818: Client admin-11 closed its connection.
+1670579874: mosquitto version 2.0.15 terminating
+1670579874: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670579874: Client <unknown> closed its connection.
+1670579874: Client admin-59 closed its connection.
+1670579874: Client admin-66 closed its connection.
+1670579981: mosquitto version 2.0.15 starting
+1670579981: Config loaded from /mosquitto/config/mosquitto.conf.
+1670579981: Opening ipv4 listen socket on port 1883.
+1670579981: Opening websockets listen socket on port 9001.
+1670579981: mosquitto version 2.0.15 running
+1670579982: New connection from 172.22.3.1:61748 on port 1883.
+1670579982: New client connected from 172.22.3.1:61748 as mqtt-explorer-e1c94bbc (p2, c1, k60, u'spa').
+1670579984: New connection from 172.22.3.1:61750 on port 1883.
+1670579984: New client connected from 172.22.3.1:61750 as Intex PureSpa SB-H20 (p2, c1, k15, u'spa').
+1670579987: New client connected from 172.22.3.1:56264 as admin-66 (p2, c1, k60, u'spa').
+1670580034: mosquitto version 2.0.15 terminating
+1670580034: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670580034: Client <unknown> closed its connection.
+1670580034: Client admin-66 closed its connection.
+1670580040: mosquitto version 2.0.15 starting
+1670580040: Config loaded from /mosquitto/config/mosquitto.conf.
+1670580040: Opening ipv4 listen socket on port 1883.
+1670580040: Opening websockets listen socket on port 9001.
+1670580040: mosquitto version 2.0.15 running
+1670580041: New connection from 172.22.3.1:55590 on port 1883.
+1670580041: New client connected from 172.22.3.1:55590 as mqtt-explorer-e1c94bbc (p2, c1, k60, u'spa').
+1670580043: New connection from 172.22.3.1:55592 on port 1883.
+1670580043: New client connected from 172.22.3.1:55592 as Intex PureSpa SB-H20 (p2, c1, k15, u'spa').
+1670580044: New client connected from 172.22.3.1:59756 as admin-66 (p2, c1, k60, u'spa').
+1670580125: New connection from 172.22.3.1:61284 on port 1883.
+1670580125: New client connected from 172.22.3.1:61284 as app-cible (p2, c1, k60, u'spa').
+1670580127: New client connected from 172.22.3.1:62874 as admin-11 (p2, c1, k60, u'spa').
+1670580133: Client app-cible closed its connection.
+1670580137: New connection from 172.22.3.1:57706 on port 1883.
+1670580137: New client connected from 172.22.3.1:57706 as app-cible (p2, c1, k60, u'spa').
+1670580143: Client app-cible closed its connection.
+1670580144: New connection from 172.22.3.1:57708 on port 1883.
+1670580144: New client connected from 172.22.3.1:57708 as app-cible (p2, c1, k60, u'spa').
+1670580152: Client app-cible closed its connection.
+1670580158: New connection from 172.22.3.1:56714 on port 1883.
+1670580159: New client connected from 172.22.3.1:56714 as app-cible (p2, c1, k60, u'spa').
+1670580163: Client app-cible closed its connection.

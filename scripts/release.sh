@@ -1,5 +1,5 @@
 git config pull.rebase true
 git pull
-cd jaccuzi-spa-back
-mvn clean package
-mvn jib:dockerBuild
+mvn -f jaccuzi-spa-back/pom.xml clean package
+mvn -f jaccuzi-spa-back/pom.xml jib:dockerBuild
+

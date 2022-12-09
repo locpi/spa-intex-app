@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.0</version>
+		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>fr.loicpincon</groupId>
@@ -53,7 +53,7 @@
 				<version>3.2.1</version>
 				<configuration>
 					<from>
-						<image>openjdk:11-jdk-alpine</image>
+						<image>adoptopenjdk/openjdk11</image>
 					</from>
 					<to>
 						<image>loic-app</image>
