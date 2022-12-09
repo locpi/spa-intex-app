@@ -22,8 +22,8 @@
     </ion-row>
     <ion-row class="command-item-list">
       <ion-col>
-         <app-temparature-card label="Temperature actuelle"
-                               dateLabel="Dernier relevé"
+        <app-temparature-card label="Temperature actuelle"
+                              dateLabel="Dernier relevé"
                               [temperatureLastDate]="jacuzziTemperatureActualCommand.getActualizeDate()"
                               [temperature]="jacuzziTemperatureActualCommand.getValue()"></app-temparature-card>
       </ion-col>
@@ -37,46 +37,20 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>Jaccuzi</ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            actif : {{jacuzziPowerCommand.getValue()}}
-          </ion-card-content>
-        </ion-card>
+        <app-state-command [command]="jacuzziPowerCommand"></app-state-command>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>Filtration</ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            actif : {{jacuzziFilterCommand.getValue()}}
-          </ion-card-content>
-        </ion-card>
+        <app-state-command [command]="jacuzziFilterCommand"></app-state-command>
       </ion-col>
       <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>Chauffage</ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            actif : {{jacuzziHeaterCommand.getValue()}}
-          </ion-card-content>
-        </ion-card>
+        <app-state-command [command]="jacuzziHeaterCommand"></app-state-command>
+
       </ion-col>
       <ion-col>
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title>Bubble</ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            actif : {{jacuzziBubbleCommand.getValue()}}
-          </ion-card-content>
-        </ion-card>
+        <app-state-command [command]="jacuzziBubbleCommand"></app-state-command>
+
       </ion-col>
     </ion-row>
     <ion-row>

@@ -1,11 +1,12 @@
-import { IonicModule } from '@ionic/angular';
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { Tab1Page } from './tab1.page';
+import {IonicModule} from '@ionic/angular';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
+import {Tab1Page} from './tab1.page';
 
-import { Tab1PageRoutingModule } from './tab1-routing.module';
+import {Tab1PageRoutingModule} from './tab1-routing.module';
 import {TemparatureCardComponent} from "../temparature-card/temparature-card.component";
+import {StateCommandComponent} from "./state-command/state-command.component";
 
 @NgModule({
   imports: [
@@ -17,6 +18,6 @@ import {TemparatureCardComponent} from "../temparature-card/temparature-card.com
   exports: [
     TemparatureCardComponent
   ],
-  declarations: [Tab1Page, TemparatureCardComponent]
+  declarations: [Tab1Page, TemparatureCardComponent, StateCommandComponent]
 })
 export class Tab1PageModule {}
