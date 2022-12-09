@@ -22,27 +22,39 @@ public class SpaService {
   }
 
   public void setActualTemp(int temp) {
-    spaRepository.getJavaSpaInformationsEntity().setTempAct(temp);
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    javaSpaInformationsEntity.setTempAct(temp);
+    spaRepository.save(javaSpaInformationsEntity);
   }
 
   public void setSetTemp(int parseInt) {
-    spaRepository.getJavaSpaInformationsEntity().setTempSet(parseInt);
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    javaSpaInformationsEntity.setTempSet(parseInt);
+    spaRepository.save(javaSpaInformationsEntity);
   }
 
   public void setFilter(String message) {
-    spaRepository.getJavaSpaInformationsEntity().setFilter(convertOnOffToBoolean(message));
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    javaSpaInformationsEntity.setFilter(convertOnOffToBoolean(message));
+    spaRepository.save(javaSpaInformationsEntity);
   }
 
   public void setHeater(String message) {
-    spaRepository.getJavaSpaInformationsEntity().setHeater(convertOnOffToBoolean(message));
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    javaSpaInformationsEntity.setHeater(convertOnOffToBoolean(message));
+    spaRepository.save(javaSpaInformationsEntity);
   }
 
   public void setBubble(String message) {
-    spaRepository.getJavaSpaInformationsEntity().setBubble(convertOnOffToBoolean(message));
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    javaSpaInformationsEntity.setBubble(convertOnOffToBoolean(message));
+    spaRepository.save(javaSpaInformationsEntity);
   }
 
   public void setPower(String message) {
-    spaRepository.getJavaSpaInformationsEntity().setPower(convertOnOffToBoolean(message));
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    javaSpaInformationsEntity.setPower(convertOnOffToBoolean(message));
+    spaRepository.save(javaSpaInformationsEntity);
   }
 
 
