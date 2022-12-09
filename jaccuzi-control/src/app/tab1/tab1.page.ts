@@ -6,7 +6,14 @@ import {JacuzziBubbleCommand} from "../tab2/model/JacuzziBubbleCommand.model";
 import {JacuzziHeaterCommand} from "../tab2/model/JacuzziHeaterCommand.model";
 import {JacuzziTemperatureExpectedCommand} from "../tab2/model/JacuzziTemperatureExpectedCommand.model";
 import {JacuzziTemperatureActualCommand} from "../tab2/model/JacuzziTemperatureActualCommand.model";
+import {HttpClient} from "@angular/common/http";
+import {environment} from "../../environments/environment";
 
+
+export class TemperatureHistory {
+  date!: Date;
+  value!: number;
+}
 
 @Component({
   selector: 'app-tab1',
@@ -23,8 +30,9 @@ export class Tab1Page implements OnInit {
               public jacuzziPowerCommand: JacuzziPowerCommand,
               public jacuzziBubbleCommand: JacuzziBubbleCommand,
               public jacuzziHeaterCommand: JacuzziHeaterCommand,
-              public jacuzziTemperatureExpectedCommand:JacuzziTemperatureExpectedCommand,
-              public jacuzziTemperatureActualCommand:JacuzziTemperatureActualCommand) {
+              public jacuzziTemperatureExpectedCommand: JacuzziTemperatureExpectedCommand,
+              public jacuzziTemperatureActualCommand: JacuzziTemperatureActualCommand,
+              private http: HttpClient) {
   }
 
   ngOnInit(): void {
@@ -34,19 +42,25 @@ export class Tab1Page implements OnInit {
 
 
   ngAfterViewInit() {
-    this.doubleLineChartMethod();
+    this.http.get<TemperatureHistory[]>(environment.api.baseurl + '/api/v1/spa/information/temperature/stats').subscribe(data => {
+      this.doubleLineChartMethod(data);
+    })
   }
 
-  doubleLineChartMethod() {
-    const labels = ['1', '2', '3']
+
+  doubleLineChartMethod(data: TemperatureHistory[]) {
+    const labels = data.map(f => {
+      const d = new Date(f.date);
+      return d.getDay() + "/" + d.getMonth() + " " + d.getHours() + ":00";
+    })
 
     this.doubleLineChart = new Chart(this.doubleLineCanvas.nativeElement, {
       type: 'line',
       data: {
         labels: labels,
         datasets: [{
-          label: 'My First Dataset',
-          data: [65, 59, 80, 81, 56, 55, 40],
+          label: 'Suivi de temperature',
+          data: data.map(f => f.value),
           fill: false,
           borderColor: 'rgb(75, 192, 192)',
           tension: 0.1
@@ -57,4 +71,8 @@ export class Tab1Page implements OnInit {
   }
 
 
+}
+
+function onlyUnique(value: TemperatureHistory, index: any, self: any) {
+  return self.indexOf(value) === index;
 }
