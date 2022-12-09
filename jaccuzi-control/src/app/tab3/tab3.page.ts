@@ -7,8 +7,10 @@ import {JacuzziWifiCommand} from "../model/JacuzziWifiCommand.model";
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
+  rssiVar!: number;
 
   constructor(public jacuzziWifiCommand: JacuzziWifiCommand) {
+    this.jacuzziWifiCommand.rssi().subscribe(rssi => this.rssiVar = rssi)
   }
 
 }

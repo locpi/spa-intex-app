@@ -1,7 +1,7 @@
 import {environment} from "../../environments/environment";
-import {Observable} from "rxjs";
 import {Injectable} from "@angular/core";
 import {MqttMessageService} from "./connector/mqtt-message-service.service";
+import {JacuzziWifiCommand} from "../model/JacuzziWifiCommand.model";
 
 @Injectable({
   providedIn: 'root',
@@ -9,30 +9,53 @@ import {MqttMessageService} from "./connector/mqtt-message-service.service";
 export class WifiService {
 
 
-  constructor(private mqttService: MqttMessageService) {
+  constructor(private mqttService: MqttMessageService, private wifiCommand: JacuzziWifiCommand) {
+    this.getIp()
+    this.getRssi()
+    this.getState()
+    this.getVersion()
+    this.getUpdate();
   }
 
-  getState(): Observable<any>  {
-    return this.mqttService.observe(environment.topics.get_wifi_state);
+  getState(): void {
+    this.mqttService.observe(environment.topics.get_wifi_state).subscribe(info => {
+      console.log(info.payload.toString())
+      this.wifiCommand.state().next(info.payload.toString());
+    })
   }
 
-  getTemp(): Observable<any>  {
-    return this.mqttService.observe(environment.topics.get_wifi_temp);
+  getTemp(): void {
+    this.mqttService.observe(environment.topics.get_wifi_temp).subscribe(info => {
+      this.wifiCommand.temp().next(info.payload.toString());
+
+    })
   }
 
-  getVersion(): Observable<any> {
-    return this.mqttService.observe(environment.topics.get_wifi_version);
+  getVersion(): void {
+    this.mqttService.observe(environment.topics.get_wifi_version).subscribe(info => {
+      this.wifiCommand.version().next(info.payload.toString());
+
+    })
   }
 
-  getUpdate(): Observable<any> {
-    return this.mqttService.observe(environment.topics.get_wifi_update);
+  getUpdate(): void {
+    this.mqttService.observe(environment.topics.get_wifi_update).subscribe(info => {
+      this.wifiCommand.update().next(info.payload.toString());
+
+    })
   }
 
-  getIp(): Observable<any> {
-    return this.mqttService.observe(environment.topics.get_wifi_ip);
+  getIp(): void {
+    this.mqttService.observe(environment.topics.get_wifi_ip).subscribe(info => {
+      this.wifiCommand.ip().next(info.payload.toString());
+
+    })
   }
 
-  getRssi() : Observable<any>{
-    return this.mqttService.observe(environment.topics.get_wifi_rssi);
+  getRssi(): void {
+    this.mqttService.observe(environment.topics.get_wifi_rssi).subscribe(info => {
+      this.wifiCommand.rssi().next(info.payload.toString());
+
+    })
   }
 }

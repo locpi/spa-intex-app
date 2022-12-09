@@ -1,66 +1,45 @@
 import {Injectable} from "@angular/core";
-import {WifiService} from "../services/wifi-service.service";
+import {Subject} from "rxjs";
 
 @Injectable({
   providedIn: 'root',
 })
 export class JacuzziWifiCommand {
 
-  private _temp: number = -999;
-  private _state: string = '';
-  private _update: string = '';
-  private _version: string = '';
-  private _ip: string = '';
-  private _rssi: number = 0;
+  private _temp = new Subject<number>;
+  private _state = new Subject<string>;
+  private _update = new Subject<string>;
+  private _version = new Subject<string>;
+  private _ip = new Subject<string>;
+  private _rssi = new Subject<number>;
 
-  constructor(private wifiService: WifiService) {
+  constructor() {
 
-    this.wifiService.getUpdate().subscribe(state => {
-      this._update = state.payload.toString();
-    })
 
-    this.wifiService.getTemp().subscribe(state => {
-      this._temp = state.payload.toString();
-    })
-    this.wifiService.getVersion().subscribe(state => {
-      this._version = state.payload.toString();
-    })
-    this.wifiService.getState().subscribe(state => {
-      this._state = state.payload.toString();
-    })
-    this.wifiService.getIp().subscribe(ip => {
-      this._ip = ip.payload.toString();
-    })
-    this.wifiService.getRssi().subscribe(rssi => {
-      console.log(rssi.payload.toString())
-      this._rssi = rssi.payload.toString();
-    })
   }
 
 
-  get temp(): number {
+  temp(): Subject<number> {
     return this._temp;
   }
 
-  get state(): string {
+  state(): Subject<string> {
     return this._state;
   }
 
-  get update(): string {
+  update(): Subject<string> {
     return this._update;
   }
 
-  get version(): string {
+  version(): Subject<string> {
     return this._version;
   }
 
-
-  get ip(): string {
+  ip(): Subject<string> {
     return this._ip;
   }
 
-
-  get rssi(): number {
+  rssi(): Subject<number> {
     return this._rssi;
   }
 }

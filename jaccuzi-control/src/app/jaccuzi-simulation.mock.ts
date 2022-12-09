@@ -7,6 +7,7 @@ import {HeaterService} from "./services/heater-service.service";
 import {BubbleService} from "./services/bubble-service.service";
 import {TemperatureExpectedService} from "./services/temperature-expected-service.service";
 import {TemperatureActualService} from "./services/temperature-actual-service.service";
+import {WifiService} from "./services/wifi-service.service";
 
 export function apiConfigProvider(config: JaccuziSimulationMock) {
   return () => config.appInits();
@@ -18,14 +19,14 @@ export function apiConfigProvider(config: JaccuziSimulationMock) {
 export class JaccuziSimulationMock {
 
 
-
   constructor(private mqttService: MqttMessageService,
-              private powerService:PowerService,
-              private filter:FilterService,
-              private heater:HeaterService,
-              private bubble:BubbleService,
-              private temperatureExpectedService:TemperatureExpectedService,
-              private temperatureActualService:TemperatureActualService) {
+              private powerService: PowerService,
+              private filter: FilterService,
+              private heater: HeaterService,
+              private bubble: BubbleService,
+              private temperatureExpectedService: TemperatureExpectedService,
+              private temperatureActualService: TemperatureActualService,
+              private wifiService: WifiService) {
   }
 
   public appInits(){

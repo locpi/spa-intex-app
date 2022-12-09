@@ -7,6 +7,7 @@ import {JacuzziHeaterCommand} from "../model/JacuzziHeaterCommand.model";
 import {JacuzziBubbleCommand} from "../model/JacuzziBubbleCommand.model";
 import {JacuzziTemperatureExpectedCommand} from "../model/JacuzziTemperatureExpectedCommand.model";
 import {JacuzziTemperatureActualCommand} from "../model/JacuzziTemperatureActualCommand.model";
+import {JacuzziWifiCommand} from "../model/JacuzziWifiCommand.model";
 
 export class JacuzziInformation {
   tempAct!: TemperatureInformation;
@@ -17,9 +18,16 @@ export class JacuzziInformation {
   bubble!: boolean;
 }
 
-export class TemperatureInformation{
-  value!:number;
-  refreshDate!:Date;
+export class TemperatureInformation {
+  value!: number;
+  refreshDate!: Date;
+}
+
+class WifiInformation {
+  state!: string;
+  rssi!: string;
+  ip!: string;
+  version!: string;
 }
 
 @Injectable({
@@ -33,7 +41,8 @@ export class InitCommandService {
               private heater: JacuzziHeaterCommand,
               private bubble: JacuzziBubbleCommand,
               private tempExpected: JacuzziTemperatureExpectedCommand,
-              private actualTemp:JacuzziTemperatureActualCommand) {
+              private actualTemp: JacuzziTemperatureActualCommand,
+              private wifi: JacuzziWifiCommand) {
   }
 
   initData(): void {
@@ -44,6 +53,13 @@ export class InitCommandService {
       this.bubble.power().next(info.bubble);
       this.tempExpected.changeTemperature().next(info.tempSet)
       this.actualTemp.changeTemperature().next(info.tempAct)
+    });
+
+    this.http.get<WifiInformation>(environment.api.baseurl + "/api/v1/wifi/information").subscribe(info => {
+      this.wifi.rssi().next(Number.parseFloat(info.rssi));
+      this.wifi.ip().next(info.ip)
+      this.wifi.state().next(info.state)
+      this.wifi.version().next(info.version)
     });
 
   }

@@ -15,7 +15,7 @@
             <ion-card-title>Etat</ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            {{jacuzziWifiCommand.state}}
+            {{(jacuzziWifiCommand.state() | async)}}
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -28,7 +28,7 @@
             <ion-card-title>Adresse IP</ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            {{jacuzziWifiCommand.ip}}
+            {{jacuzziWifiCommand.ip()| async}}
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -40,33 +40,26 @@
           <ion-card-content>
             <ion-icon class="wifi-signal"
 
-                      [class.wifi-signal-absent]="jacuzziWifiCommand.rssi ===0"
-                      [class.wifi-signal-excellent]="jacuzziWifiCommand.rssi>-50 && jacuzziWifiCommand.rssi<0"
-                      [class.wifi-signal-good]=" jacuzziWifiCommand.rssi<-50 && jacuzziWifiCommand.rssi>-60"
-                      [class.wifi-signal-fair]="jacuzziWifiCommand.rssi<-60 && jacuzziWifiCommand.rssi>-70"
-                      [class.wifi-signal-weak]="jacuzziWifiCommand.rssi<-70"
+                      [class.wifi-signal-absent]="rssiVar ===0"
+                      [class.wifi-signal-excellent]="rssiVar>-50 && rssiVar<0"
+                      [class.wifi-signal-good]=" rssiVar<-50 && rssiVar>-60"
+                      [class.wifi-signal-fair]="rssiVar<-60 && rssiVar>-70"
+                      [class.wifi-signal-weak]="rssiVar<-70"
 
                       name="wifi"></ion-icon>
-            <span *ngIf="jacuzziWifiCommand.rssi===0">Pas d'informations pour le moment</span>
+            <span *ngIf="rssiVar===0">Pas d'informations pour le moment</span>
           </ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <app-temparature-card
-          [temperature]="jacuzziWifiCommand.temp"
-          label="Temperature boitier"
-          dateLabel="Dernier relevé"
-          ></app-temparature-card>
-      </ion-col>
-      <ion-col>
         <ion-card>
           <ion-card-header>
             <ion-card-title>Update</ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            {{jacuzziWifiCommand.update}}
+            {{jacuzziWifiCommand.update() | async}}
           </ion-card-content>
         </ion-card>
       </ion-col>
