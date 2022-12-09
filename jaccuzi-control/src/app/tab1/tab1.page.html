@@ -1,0 +1,91 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <span style="text-align: center">Accueil</span>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+    <ion-col>
+      <ion-card class="error-card">
+        <ion-card-header>
+          <ion-card-title>Erreur</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          actif : {{jacuzziPowerCommand.getValue()}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    </ion-row>
+    <ion-row class="command-item-list">
+      <ion-col>
+         <app-temparature-card label="Temperature actuelle"
+                               dateLabel="Dernier relevé"
+                              [temperatureLastDate]="jacuzziTemperatureActualCommand.getActualizeDate()"
+                              [temperature]="jacuzziTemperatureActualCommand.getValue()"></app-temparature-card>
+      </ion-col>
+      <ion-col>
+        <app-temparature-card label="Temperature cible"
+                              dateLabel="Derniere modification"
+                              [temperatureLastDate]="jacuzziTemperatureExpectedCommand.getActualizeDate()"
+                              [temperature]="jacuzziTemperatureExpectedCommand.getValue()"></app-temparature-card>
+      </ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Jaccuzi</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            actif : {{jacuzziPowerCommand.getValue()}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Bubble</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            actif : {{jacuzziBubbleCommand.getValue()}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Chauffage</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            actif : {{jacuzziHeaterCommand.getValue()}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Filtration</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            actif : {{jacuzziFilterCommand.getValue()}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+
+
+    <ion-row>
+      <ion-col>
+        <canvas #doubleLineCanvas style="position: relative; height:20vh; width:40vw"></canvas>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <span style="text-align: center">Wifi</span>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Etat</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            {{jacuzziWifiCommand.state}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Adresse IP</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            {{jacuzziWifiCommand.ip}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Intensite signal</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-icon class="wifi-signal"
+
+                      [class.wifi-signal-absent]="jacuzziWifiCommand.rssi ===0"
+                      [class.wifi-signal-excellent]="jacuzziWifiCommand.rssi>-50 && jacuzziWifiCommand.rssi<0"
+                      [class.wifi-signal-good]=" jacuzziWifiCommand.rssi<-50 && jacuzziWifiCommand.rssi>-60"
+                      [class.wifi-signal-fair]="jacuzziWifiCommand.rssi<-60 && jacuzziWifiCommand.rssi>-70"
+                      [class.wifi-signal-weak]="jacuzziWifiCommand.rssi<-70"
+
+                      name="wifi"></ion-icon>
+            <span *ngIf="jacuzziWifiCommand.rssi===0">Pas d'informations pour le moment</span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <app-temparature-card
+          [temperature]="jacuzziWifiCommand.temp"
+          label="Temperature boitier"
+          dateLabel="Dernier relevé"
+          ></app-temparature-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Update</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            {{jacuzziWifiCommand.update}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

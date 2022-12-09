@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Jaccuzi Control",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

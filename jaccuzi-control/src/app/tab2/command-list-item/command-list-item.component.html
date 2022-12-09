@@ -1,0 +1,6 @@
+<ion-item class="command-item">
+  <ion-label>{{command.getName()}}</ion-label>
+  <ion-toggle [enableOnOffLabels]="true" slot="end" [checked]="state"
+              [ngModel]="command.getValue()"
+              (ngModelChange)="changeStatus($event)"></ion-toggle>
+</ion-item>

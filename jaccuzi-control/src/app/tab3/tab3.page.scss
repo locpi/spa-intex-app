@@ -1,0 +1,24 @@
+.wifi-signal {
+  font-size: 64px;
+}
+
+.wifi-signal-excellent {
+  color: green;
+}
+
+.wifi-signal-good {
+  color: dodgerblue;
+}
+
+.wifi-signal-fair {
+  color: orange;
+}
+
+.wifi-signal-weak {
+  color: red;
+}
+
+.wifi-signal-absent {
+  color: grey;
+  text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <span style="text-align: center">Planning</span>
+    </ion-title>
+  </ion-toolbar>
+
+  <ion-content [fullscreen]="true">
+    <ion-grid>
+      <ion-row>
+        <ion-list [inset]="true" style="width: 100%;">
+          <ion-card *ngFor="let party of partys">
+            <ion-card-content>
+              {{party.startAt | date :'dd/MM/yyyy HH:mm'}} - {{party.temp}}
+            </ion-card-content>
+
+            <ion-button fill="clear">Action 1</ion-button>
+            <ion-button fill="clear">Action 2</ion-button>
+          </ion-card>
+
+        </ion-list>
+      </ion-row>
+
+    </ion-grid>
+
+
+    <ion-fab>
+      <ion-fab-button>
+        <ion-icon name="add" (click)="openModal()"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-content>
+</ion-header>
