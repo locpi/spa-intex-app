@@ -4,6 +4,7 @@ spring:
       host: localhost
 mqtt:
   hostname: localhost
-
-
+logging:
+  level:
+    fr.loicpincon: debug
 
