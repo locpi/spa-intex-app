@@ -3,6 +3,7 @@ package fr.loicpincon.jaccuzispa.service;
 import fr.loicpincon.jaccuzispa.mqtt.config.PublishService;
 import fr.loicpincon.jaccuzispa.repository.entity.JavaSpaInformationsEntity;
 import fr.loicpincon.jaccuzispa.repository.repository.SpaRepository;
+import java.time.LocalDateTime;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.MqttException;
@@ -24,12 +25,14 @@ public class SpaService {
   public void setActualTemp(int temp) {
     JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
     javaSpaInformationsEntity.setTempAct(temp);
+    javaSpaInformationsEntity.setTempActRefreshDate(LocalDateTime.now());
     spaRepository.save(javaSpaInformationsEntity);
   }
 
   public void setSetTemp(int parseInt) {
     JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
     javaSpaInformationsEntity.setTempSet(parseInt);
+    javaSpaInformationsEntity.setTempSetRefreshDate(LocalDateTime.now());
     spaRepository.save(javaSpaInformationsEntity);
   }
 

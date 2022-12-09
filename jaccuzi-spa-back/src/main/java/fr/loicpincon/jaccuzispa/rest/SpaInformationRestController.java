@@ -2,6 +2,7 @@ package fr.loicpincon.jaccuzispa.rest;
 
 import fr.loicpincon.jaccuzispa.repository.entity.JavaSpaInformationsEntity;
 import fr.loicpincon.jaccuzispa.rest.vm.SpaInformation;
+import fr.loicpincon.jaccuzispa.rest.vm.SpaInformation.TemperatureInformation;
 import fr.loicpincon.jaccuzispa.service.SpaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,11 +19,22 @@ public class SpaInformationRestController {
     JavaSpaInformationsEntity javaSpaInformationsEntity = service.get();
     SpaInformation spaInformation = new SpaInformation();
     spaInformation.setBubble(javaSpaInformationsEntity.isBubble());
-    spaInformation.setTempAct(javaSpaInformationsEntity.getTempAct());
+
+    spaInformation.setTempAct(
+        TemperatureInformation.builder()
+                              .refreshDate(javaSpaInformationsEntity.getTempActRefreshDate())
+                              .value(javaSpaInformationsEntity.getTempAct())
+                              .build()
+    );
     spaInformation.setPower(javaSpaInformationsEntity.isPower());
     spaInformation.setHeater(javaSpaInformationsEntity.isHeater());
     spaInformation.setFilter(javaSpaInformationsEntity.isFilter());
-    spaInformation.setTempSet(javaSpaInformationsEntity.getTempSet());
+    spaInformation.setTempSet(
+        TemperatureInformation.builder()
+                              .refreshDate(javaSpaInformationsEntity.getTempSetRefreshDate())
+                              .value(javaSpaInformationsEntity.getTempSet())
+                              .build()
+    );
     return spaInformation;
   }
 

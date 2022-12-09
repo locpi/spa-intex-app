@@ -1,6 +1,7 @@
 export const environment = {
   production: true,
   hmr: false,
+  env:'prod',
   topics: {
     get_error: 'pool/error',
     get_actual_temperature: 'pool/water/tempAct',

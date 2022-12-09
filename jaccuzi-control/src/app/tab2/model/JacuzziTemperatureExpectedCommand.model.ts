@@ -1,41 +1,32 @@
-import {DefaultCommand} from "./DefaultCommand.model";
 import {Injectable} from "@angular/core";
-import {TemperatureExpectedService} from "../../services/temperature-expected-service.service";
 import {Subject} from "rxjs";
+import {TemperatureInformation} from "../../services/init-command.service";
 
 @Injectable({
   providedIn: 'root',
 })
-export class JacuzziTemperatureExpectedCommand implements DefaultCommand {
+export class JacuzziTemperatureExpectedCommand {
 
   private readonly name: string;
+  private _temp: Subject<TemperatureInformation> = new Subject<TemperatureInformation>();
   private value: number = -999;
   private callable: boolean = true;
   private actualizeDate: Date = new Date();
 
-  constructor(private temperatureExpectedService: TemperatureExpectedService) {
+  constructor() {
     this.name = 'Temperature cible'
-    this.temperatureExpectedService.getExpectedTemperature().subscribe(state => {
-      console.log(state.payload.toString())
-      this.value = state.payload as number;
+    this._temp.subscribe(state => {
+      this.value = state.value
+      this.actualizeDate = state.refreshDate;
     })
-  }
-  power(): Subject<boolean>{
-    throw new Error("Method not implemented.");
-  }
-  powerOn(): void {
-    throw new Error("Method not implemented.");
-  }
-
-  powerOff(): void {
-    throw new Error("Method not implemented.");
   }
 
   public setExpected(value: number) {
-    this.value = value;
     this.callable = true;
-    this.actualizeDate = new Date();
-    this.temperatureExpectedService.setExpected(value);
+    const temp = new TemperatureInformation();
+    temp.value = value;
+    temp.refreshDate = new Date();
+    this._temp.next(temp);
   }
 
 
@@ -51,7 +42,12 @@ export class JacuzziTemperatureExpectedCommand implements DefaultCommand {
     return this.value;
   }
 
-  getActualizeDate():Date{
+  getActualizeDate(): Date {
     return this.actualizeDate;
+  }
+
+
+  changeTemperature(): Subject<TemperatureInformation> {
+    return this._temp;
   }
 }

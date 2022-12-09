@@ -1,5 +1,8 @@
 package fr.loicpincon.jaccuzispa.rest.vm;
 
+import java.time.LocalDateTime;
+import java.util.Date;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,9 +10,9 @@ import lombok.Setter;
 @Setter
 public class SpaInformation {
 
-  private int tempAct;
+  private TemperatureInformation tempAct;
 
-  private int tempSet;
+  private TemperatureInformation tempSet;
 
   private boolean power;
 
@@ -19,4 +22,12 @@ public class SpaInformation {
 
   private boolean bubble;
 
+
+  @Getter
+  @Builder
+  public static class TemperatureInformation {
+
+    private final int value;
+    private final LocalDateTime refreshDate;
+  }
 }

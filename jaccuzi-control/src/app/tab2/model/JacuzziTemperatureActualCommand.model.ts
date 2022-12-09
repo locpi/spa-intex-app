@@ -1,39 +1,23 @@
-import {DefaultCommand} from "./DefaultCommand.model";
 import {Injectable} from "@angular/core";
-import {TemperatureExpectedService} from "../../services/temperature-expected-service.service";
-import {TemperatureActualService} from "../../services/temperature-actual-service.service";
-import {D} from "chart.js/dist/chunks/helpers.core";
 import {Subject} from "rxjs";
+import {TemperatureInformation} from "../../services/init-command.service";
 
 @Injectable({
   providedIn: 'root',
 })
-export class JacuzziTemperatureActualCommand implements DefaultCommand {
-
+export class JacuzziTemperatureActualCommand {
   private readonly name: string;
+  private _temp: Subject<TemperatureInformation> = new Subject<TemperatureInformation>();
   private value: number = -999;
   private callable: boolean = true;
-  private actualizeDate:Date = new Date();
+  private actualizeDate: Date = new Date();
 
-  constructor(private temperatureActualService: TemperatureActualService) {
+  constructor() {
     this.name = 'Temperature actuelle'
-    this.temperatureActualService.getActualTemperature().subscribe(state => {
-      this.value = state.payload as number;
-      this.actualizeDate = new Date();
+    this._temp.subscribe(state => {
+      this.value = state.value;
+      this.actualizeDate = state.refreshDate;
     })
-  }
-
-  powerOn(): void {
-    throw new Error("Method not implemented.");
-  }
-
-  power(): Subject<boolean>{
-    throw new Error("Method not implemented.");
-  }
-
-
-  powerOff(): void {
-    throw new Error("Method not implemented.");
   }
 
   getCallable(): boolean {
@@ -44,13 +28,15 @@ export class JacuzziTemperatureActualCommand implements DefaultCommand {
     return this.name;
   }
 
-  getActualizeDate():Date{
-    return this.actualizeDate;
-  }
-
   getValue(): number {
     return this.value;
   }
 
+  getActualizeDate(): Date {
+    return this.actualizeDate;
+  }
 
+  changeTemperature(): Subject<TemperatureInformation> {
+    return this._temp;
+  }
 }

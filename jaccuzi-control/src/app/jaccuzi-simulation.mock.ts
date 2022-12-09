@@ -5,6 +5,8 @@ import {PowerService} from "./services/power-service.service";
 import {FilterService} from "./services/filter-service.service";
 import {HeaterService} from "./services/heater-service.service";
 import {BubbleService} from "./services/bubble-service.service";
+import {TemperatureExpectedService} from "./services/temperature-expected-service.service";
+import {TemperatureActualService} from "./services/temperature-actual-service.service";
 
 export function apiConfigProvider(config: JaccuziSimulationMock) {
   return () => config.appInits();
@@ -21,7 +23,9 @@ export class JaccuziSimulationMock {
               private powerService:PowerService,
               private filter:FilterService,
               private heater:HeaterService,
-              private bubble:BubbleService) {
+              private bubble:BubbleService,
+              private temperatureExpectedService:TemperatureExpectedService,
+              private temperatureActualService:TemperatureActualService) {
   }
 
   public appInits(){

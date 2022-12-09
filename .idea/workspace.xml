@@ -4,26 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3281ba04-2be5-4d5d-942b-658bd91bf834" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="3281ba04-2be5-4d5d-942b-658bd91bf834" name="Changes" comment="save">
+      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/environments/environment.staging.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/JaccuziSpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/JaccuziSpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/capacitor.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/capacitor.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/explore-container/explore-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/explore-container/explore-container.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/explore-container/explore-container.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/explore-container/explore-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/explore-container/explore-container.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/jaccuzi-simulation.mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/jaccuzi-simulation.mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/planning/planning.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/planning/planning.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/connector/mqtt-message-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/connector/mqtt-message-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/init-command.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/init-command.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-actual-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-actual-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-expected-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-expected-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureActualCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureActualCommand.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureExpectedCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureExpectedCommand.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab3/tab3.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab3/tab3.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/JavaSpaInformationsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/JavaSpaInformationsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/SoireeJaccuzEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/SoireeJaccuzEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/WifiInformationsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/WifiInformationsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SoireeJaccuzRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SoireeJaccuzRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaDevRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/WifiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/WifiRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/PartyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/PartyRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SoireeSpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SoireeSpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/SpaInformationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/SpaInformationRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/vm/SpaInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/vm/SpaInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SpaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/WifiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/WifiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/usecase/StartHeaterAutamitecly.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/usecase/StartHeaterAutamitecly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mosquitto/log/mosquitto.log" beforeDir="false" afterPath="$PROJECT_DIR$/mosquitto/log/mosquitto.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +83,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app",
+    "last_opened_file_path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/src/environments",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -80,6 +91,11 @@
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "ecc9f4520029df70e30d7dfbbd6d726d",
     "ts.external.directory.path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/node_modules/typescript/lib"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -91,11 +107,11 @@
       <recent name="fr.loicpincon.jaccuzispa.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jaccuzi-control/src/environments" />
+      <recent name="$PROJECT_DIR$/jaccuzi-spa-back/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/jaccuzi-control/src/app/planning" />
-      <recent name="$PROJECT_DIR$/jaccuzi-spa-back/src/main/resources" />
       <recent name="$PROJECT_DIR$/jaccuzi-control/src/app/services" />
-      <recent name="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jaccuzi-control/src/app/planning/vm" />
@@ -121,49 +137,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.JaccuziSpaApplication">
-    <configuration name="HeaterDecisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in jaccuzi-spa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jaccuzi-spa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.loicpincon.jaccuzispa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.loicpincon.jaccuzispa" />
-      <option name="MAIN_CLASS_NAME" value="fr.loicpincon.jaccuzispa.HeaterDecisionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeaterDecisionTest.should_be_return_temp_at_final_hour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jaccuzi-spa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.loicpincon.jaccuzispa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.loicpincon.jaccuzispa" />
-      <option name="MAIN_CLASS_NAME" value="fr.loicpincon.jaccuzispa.HeaterDecisionTest" />
-      <option name="METHOD_NAME" value="should_be_return_temp_at_final_hour" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceHeaterSpaTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jaccuzi-spa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.loicpincon.jaccuzispa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.loicpincon.jaccuzispa" />
-      <option name="MAIN_CLASS_NAME" value="fr.loicpincon.jaccuzispa.PriceHeaterSpaTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,21 +194,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker-compose.yml.db-mongo: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db-mongo" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.HeaterDecisionTest" />
-      <item itemvalue="JUnit.HeaterDecisionTest.should_be_return_temp_at_final_hour" />
-      <item itemvalue="JUnit.PriceHeaterSpaTest.test" />
+      <item itemvalue="Docker.docker-compose.yml.db-mongo: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+      <item itemvalue="JUnit.All in jaccuzi-spa" />
       <item itemvalue="JUnit.PriceHeaterSpaTest.verify_hours" />
       <item itemvalue="JUnit.StartHeaterAutamiteclyTest" />
       <item itemvalue="Spring Boot.JaccuziSpaApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.db-mongo: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+        <item itemvalue="JUnit.All in jaccuzi-spa" />
         <item itemvalue="JUnit.StartHeaterAutamiteclyTest" />
         <item itemvalue="JUnit.PriceHeaterSpaTest.verify_hours" />
-        <item itemvalue="JUnit.PriceHeaterSpaTest.test" />
-        <item itemvalue="JUnit.HeaterDecisionTest.should_be_return_temp_at_final_hour" />
-        <item itemvalue="JUnit.HeaterDecisionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +253,49 @@
       <workItem from="1670251159099" duration="35437000" />
       <workItem from="1670501233194" duration="28836000" />
     </task>
+    <task id="LOCAL-00001" summary="add mongodb">
+      <created>1670577278854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670577278854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add mongodb">
+      <created>1670580176094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670580176094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add mongodb">
+      <created>1670581824839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670581824839</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add mongodb">
+      <created>1670582041281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670582041281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="disable cron">
+      <created>1670582824532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670582824532</updated>
+    </task>
+    <task id="LOCAL-00006" summary="save">
+      <created>1670583737138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670583737138</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +319,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mongodb" />
+    <MESSAGE value="disable cron" />
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

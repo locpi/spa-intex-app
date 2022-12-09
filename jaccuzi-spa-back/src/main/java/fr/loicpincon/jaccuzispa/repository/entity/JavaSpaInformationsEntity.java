@@ -1,5 +1,6 @@
 package fr.loicpincon.jaccuzispa.repository.entity;
 
+import java.time.LocalDateTime;
 import java.util.UUID;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,6 +18,11 @@ public class JavaSpaInformationsEntity {
   private int tempAct;
 
   private int tempSet;
+
+  private LocalDateTime tempSetRefreshDate;
+
+  private LocalDateTime tempActRefreshDate;
+
 
   private int tempNightSet;
 

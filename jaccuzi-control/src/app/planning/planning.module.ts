@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {IonicModule} from "@ionic/angular";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {ExploreContainerComponentModule} from "../explore-container/explore-container.module";
 import {Tab1PageRoutingModule} from "../tab1/tab1-routing.module";
 import {PlanningRoutingModule} from "./planning-routing.module";
 import {HomeComponent} from "./home/home.component";
@@ -16,7 +15,6 @@ import {AddComponent} from "./add/add.component";
     IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
     PlanningRoutingModule,
     ReactiveFormsModule
   ]

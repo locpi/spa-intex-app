@@ -10,17 +10,17 @@ export class MqttMessageService {
 
 
   constructor(private _mqttService: MqttService) {
-    console.log("test")
     this._mqttService.observe(environment.topics.get_error).subscribe(r=>{
       console.log(r.payload.toString())
     },error => alert(error))
   }
 
   public sendMessage(topic: string, payload: string): void {
-    console.log('Publish', payload, topic);
-    this._mqttService.unsafePublish(topic, payload, {
-
-    });
+    if(environment.env!=='staging'){
+      console.log('Publish', payload, topic);
+      this._mqttService.unsafePublish(topic, payload, {
+      });
+    }
   }
 
   public observe(topic: string): Observable<any> {
