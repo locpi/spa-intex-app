@@ -40,6 +40,6 @@ networks:
     driver: bridge
     name: spa-network
     ipam:
-      driver: default
+      driver: bridge
       config:
         - subnet: 172.22.3.0/24

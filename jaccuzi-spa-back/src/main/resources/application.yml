@@ -3,7 +3,7 @@ server:
 spring:
   data:
     mongodb:
-      host: 172.22.3.11
+      host: 217.160.65.22
       port: 60017
       username: admin
       password: pass
@@ -14,7 +14,7 @@ mqtt:
   cleanSession: true
   connectionTimeout: 10
   clientId: app-cible
-  hostname: 172.22.3.10
+  hostname: 217.160.65.22
   port: 1883
   username: spa
   password: spa

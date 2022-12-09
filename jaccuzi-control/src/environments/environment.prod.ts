@@ -23,7 +23,7 @@ export const environment = {
     get_pool_error:"pool/error"
   },
   mqtt: {
-    server: '192.168.1.33',
+    server: '217.160.65.22',
     protocol: "ws",
     port: 9001,
     path: '',
@@ -33,7 +33,7 @@ export const environment = {
     mock: false
   },
   api: {
-    baseurl: 'http://192.168.1.33:6500'
+    baseurl: 'http://217.160.65.22:6500'
   }
 };
 
