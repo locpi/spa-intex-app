@@ -8,17 +8,17 @@
 
 <ion-content [fullscreen]="true">
   <ion-grid>
-    <ion-row>
-    <ion-col>
-      <ion-card class="error-card">
-        <ion-card-header>
-          <ion-card-title>Erreur</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          actif : {{jacuzziPowerCommand.getValue()}}
-        </ion-card-content>
-      </ion-card>
-    </ion-col>
+    <ion-row *ngIf="false">
+      <ion-col>
+        <ion-card class="error-card">
+          <ion-card-header>
+            <ion-card-title>Erreur</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            actif : {{jacuzziPowerCommand.getValue()}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
     </ion-row>
     <ion-row class="command-item-list">
       <ion-col>
