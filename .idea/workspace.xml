@@ -5,75 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3281ba04-2be5-4d5d-942b-658bd91bf834" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuza-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/jaccuzi-simulation.mock.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/planning/planning-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/planning/vm/party.vm.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/AbstratCommandService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/bubble-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/connector/mqtt-message-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/filter-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/heater-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/init-command.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/pool-metadata-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/power-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-actual-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-expected-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/wifi-service.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/AbstractCommand.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziFilterCommand.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziHeaterCommand.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureActualCommand.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureExpectedCommand.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziWifiCommand.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/HeaterDecision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/MainteiHeaterDecision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/PriceHeaterSpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/cron/CronApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/mqtt/SpaListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/mqtt/WifiListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/mqtt/config/AbstractListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/mqtt/config/MqttConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/mqtt/config/PublishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/JavaSpaInformationsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/SoireeJaccuzEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/WifiInformationsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SoireeJaccuzRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaDevRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/WifiRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/PartyRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/SpaCommandRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/SpaInformationRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/WifiInformationRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/vm/CommandBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/vm/PartyVm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/vm/SpaInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/vm/WifiInformationsVm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SoireeSpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/WifiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/usecase/HeaterOnlyDuringLowerEdfHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/usecase/StartHeaterAutamitecly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/web/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/test/java/fr/loicpincon/jaccuzispa/HeaterDecisionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/test/java/fr/loicpincon/jaccuzispa/PriceHeaterSpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/test/java/fr/loicpincon/jaccuzispa/service/SoireeSpaServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/test/java/fr/loicpincon/jaccuzispa/usecase/StartHeaterAutamiteclyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mosquitto/config/mosquitto.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mosquitto/config/password.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/deploiement.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/JaccuziSpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/JaccuziSpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/JavaSpaInformationsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/JavaSpaInformationsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/SoireeJaccuzEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/SoireeJaccuzEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/WifiInformationsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/entity/WifiInformationsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SoireeJaccuzRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SoireeJaccuzRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaDevRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/SpaRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/WifiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/repository/repository/WifiRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/PartyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/rest/PartyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SoireeSpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SoireeSpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/SpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/WifiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/service/WifiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/usecase/StartHeaterAutamitecly.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-spa-back/src/main/java/fr/loicpincon/jaccuzispa/usecase/StartHeaterAutamitecly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +74,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "ecc9f4520029df70e30d7dfbbd6d726d",
     "ts.external.directory.path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/node_modules/typescript/lib"
@@ -274,11 +227,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriceHeaterSpaTest.test" />
-        <item itemvalue="JUnit.PriceHeaterSpaTest.verify_hours" />
-        <item itemvalue="JUnit.HeaterDecisionTest" />
         <item itemvalue="JUnit.StartHeaterAutamiteclyTest" />
+        <item itemvalue="JUnit.PriceHeaterSpaTest.verify_hours" />
+        <item itemvalue="JUnit.PriceHeaterSpaTest.test" />
         <item itemvalue="JUnit.HeaterDecisionTest.should_be_return_temp_at_final_hour" />
+        <item itemvalue="JUnit.HeaterDecisionTest" />
       </list>
     </recent_temporary>
   </component>

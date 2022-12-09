@@ -14,7 +14,7 @@
 	<name>jaccuzi-spa</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -31,7 +31,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-websocket</artifactId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 
 		<dependency>
@@ -53,18 +53,16 @@
 				<version>3.2.1</version>
 				<configuration>
 					<from>
-						<image>openjdk:17-jdk-alpine</image>
+						<image>openjdk:11-jdk-alpine</image>
 					</from>
 					<to>
 						<image>loic-app</image>
 						<tags>
 							<tag>latest</tag>
-							<tag>${project.version}</tag>
 						</tags>
 					</to>
 				</configuration>
 			</plugin>
-		</plugins>
 		</plugins>
 	</build>
 

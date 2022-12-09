@@ -25,7 +25,7 @@ class SoireeSpaServiceTest {
   @Test
   void should_be_create_party() {
     // GIVEN
-    Mockito.when(soireeJaccuzRepository.getAllNoFinish()).thenReturn(List.of(build(LocalDateTime.of(2022, 1, 6, 22, 0, 0))));
+    Mockito.when(soireeJaccuzRepository.findAllByFinish(false)).thenReturn(List.of(build(LocalDateTime.of(2022, 1, 6, 22, 0, 0))));
     // WHEN
     service.planning(LocalDateTime.of(2022, 1, 6, 19, 0, 0), 12);
 
@@ -36,7 +36,7 @@ class SoireeSpaServiceTest {
   @Test
   void should_be_refuse_party() {
     // GIVEN
-    Mockito.when(soireeJaccuzRepository.getAllNoFinish()).thenReturn(List.of(build(LocalDateTime.of(2022, 1, 6, 22, 0, 0))));
+    Mockito.when(soireeJaccuzRepository.findAllByFinish(false)).thenReturn(List.of(build(LocalDateTime.of(2022, 1, 6, 22, 0, 0))));
     // WHEN
     assertThatThrownBy(() -> service.planning(LocalDateTime.of(2022, 1, 6, 20, 0, 0), 12));
 

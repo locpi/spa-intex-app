@@ -35,7 +35,7 @@ class StartHeaterAutamiteclyTest {
     // GIVEN
     LocalDateTime nowMinusTenHours = now().minusHours(10);
 
-    Mockito.when(soireeJaccuzRepository.getAllNoFinish())
+    Mockito.when(soireeJaccuzRepository.findAllByFinish(false))
            .thenReturn(List.of(build(nowMinusTenHours, 40)));
 
     Mockito.when(service.get()).thenReturn(getT(20));
@@ -51,7 +51,7 @@ class StartHeaterAutamiteclyTest {
   void should_be_not_start_heater_because_party_is_tomorrow() throws MqttException {
     // GIVEN
     LocalDateTime tommorow = now().plusDays(1);
-    Mockito.when(soireeJaccuzRepository.getAllNoFinish()).thenReturn(List.of(build(tommorow, 40)));
+    Mockito.when(soireeJaccuzRepository.findAllByFinish(false)).thenReturn(List.of(build(tommorow, 40)));
 
     Mockito.when(service.get()).thenReturn(getT(20));
 
@@ -68,7 +68,7 @@ class StartHeaterAutamiteclyTest {
 
     LocalDateTime nowMinusTwoHours = now().minusHours(2);
 
-    Mockito.when(soireeJaccuzRepository.getAllNoFinish())
+    Mockito.when(soireeJaccuzRepository.findAllByFinish(false))
            .thenReturn(List.of(build(nowMinusTwoHours, 40)));
 
     Mockito.when(service.get()).thenReturn(getT(20));

@@ -21,7 +21,7 @@ public class SoireeSpaService {
 
   public void planning(LocalDateTime localDateTime, int temp) {
 
-    List<SoireeJaccuzEntity> allNoFinish = soireeJaccuzRepository.getAllNoFinish();
+    List<SoireeJaccuzEntity> allNoFinish = soireeJaccuzRepository.findAllByFinish(false);
 
     boolean present = allNoFinish.stream()
                                  .anyMatch(f -> localDateTime.plus(SESSION_DURATION_HOURS, ChronoUnit.HOURS).isAfter(f.getStartAt()));
@@ -40,11 +40,17 @@ public class SoireeSpaService {
     if (build.diffTemperatureForTime() > 3) {
       throw new RuntimeException("La temperature sera differente de plus de 3 degres, soirée annulé");
     }
-    soireeJaccuzRepository.create(localDateTime, temp);
+
+    SoireeJaccuzEntity soireeJaccuzEntity = new SoireeJaccuzEntity();
+    soireeJaccuzEntity.setTemperature(temp);
+    soireeJaccuzEntity.setFinish(false);
+    soireeJaccuzEntity.setStartAt(localDateTime);
+
+    soireeJaccuzRepository.save(soireeJaccuzEntity);
   }
 
-  public List<SoireeJaccuzEntity> getAllAVenir(){
-    return soireeJaccuzRepository.getAllNoFinish();
+  public List<SoireeJaccuzEntity> getAllAVenir() {
+    return soireeJaccuzRepository.findAllByFinish(false);
   }
 
 }

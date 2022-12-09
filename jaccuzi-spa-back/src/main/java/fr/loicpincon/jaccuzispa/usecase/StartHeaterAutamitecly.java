@@ -19,7 +19,7 @@ public class StartHeaterAutamitecly {
 
   public void execute() {
     JavaSpaInformationsEntity javaSpaInformationsEntity = service.get();
-    soireeJaccuzRepository.getAllNoFinish().forEach(soiree -> {
+    soireeJaccuzRepository.findAllByFinish(false).forEach(soiree -> {
       HeaterDecision build = HeaterDecision.builder()
                                            .actualTime(LocalDateTime.now())
                                            .forTime(soiree.getStartAt())

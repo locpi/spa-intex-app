@@ -15,22 +15,22 @@ public class WifiService {
   private final WifiRepository wifiRepository;
 
   public WifiInformationsEntity get() {
-    return wifiRepository.getJavaSpaInformationsEntity();
+    return wifiRepository.findAll().get(0);
   }
 
   public void setIp(String ip) {
-    wifiRepository.getJavaSpaInformationsEntity().setIp(ip);
+    wifiRepository.findAll().get(0).setIp(ip);
   }
 
   public void setState(String message) {
-    wifiRepository.getJavaSpaInformationsEntity().setState(message);
+    wifiRepository.findAll().get(0).setState(message);
   }
 
   public void setRssi(String value) {
-    wifiRepository.getJavaSpaInformationsEntity().setRssi(value);
+    wifiRepository.findAll().get(0).setRssi(value);
   }
 
   public void setVersion(String value) {
-    wifiRepository.getJavaSpaInformationsEntity().setVersion(value);
+    wifiRepository.findAll().get(0).setVersion(value);
   }
 }

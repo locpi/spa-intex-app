@@ -62,10 +62,21 @@ public class SpaService {
 
   public void command(String command, String value) throws MqttException {
     switch (command) {
-      case "power" -> publishService.send("pool/command/power", value);
-      case "filter" -> publishService.send("pool/command/filter", value);
-      case "bubble" -> publishService.send("pool/command/bubble", value);
-      case "heater" -> publishService.send("pool/command/heater", value);
+      case "power":
+        publishService.send("pool/command/power", value);
+        break;
+      case "filter":
+        publishService.send("pool/command/filter", value);
+        break;
+
+      case "bubble":
+        publishService.send("pool/command/bubble", value);
+        break;
+
+      case "heater":
+        publishService.send("pool/command/heater", value);
+        break;
+
     }
   }
 }

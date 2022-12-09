@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -26,7 +27,7 @@ public class PartyRestController {
       partyVm.setStartAt(Date.from(f.getStartAt().atZone(ZoneId.systemDefault()).toInstant()));
       partyVm.setTemp(f.getTemperature());
       return partyVm;
-    }).toList();
+    }).collect(Collectors.toList());
 
   }
 
