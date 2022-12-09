@@ -19,18 +19,26 @@ public class WifiService {
   }
 
   public void setIp(String ip) {
-    wifiRepository.findAll().get(0).setIp(ip);
+    WifiInformationsEntity wifiInformationsEntity = get();
+    wifiInformationsEntity.setIp(ip);
+    wifiRepository.save(wifiInformationsEntity);
   }
 
   public void setState(String message) {
-    wifiRepository.findAll().get(0).setState(message);
+    WifiInformationsEntity wifiInformationsEntity = get();
+    wifiInformationsEntity.setState(message);
+    wifiRepository.save(wifiInformationsEntity);
   }
 
   public void setRssi(String value) {
-    wifiRepository.findAll().get(0).setRssi(value);
+    WifiInformationsEntity wifiInformationsEntity = get();
+    wifiInformationsEntity.setRssi(value);
+    wifiRepository.save(wifiInformationsEntity);
   }
 
   public void setVersion(String value) {
-    wifiRepository.findAll().get(0).setVersion(value);
+    WifiInformationsEntity wifiInformationsEntity = get();
+    wifiInformationsEntity.setVersion(value);
+    wifiRepository.save(wifiInformationsEntity);
   }
 }
