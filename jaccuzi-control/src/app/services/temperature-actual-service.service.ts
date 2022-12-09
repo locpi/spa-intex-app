@@ -1,7 +1,7 @@
 import {MqttMessageService} from "./connector/mqtt-message-service.service";
 import {environment} from "../../environments/environment";
 import {Injectable} from "@angular/core";
-import {JacuzziTemperatureActualCommand} from "../tab2/model/JacuzziTemperatureActualCommand.model";
+import {JacuzziTemperatureActualCommand} from "../model/JacuzziTemperatureActualCommand.model";
 import {TemperatureInformation} from "./init-command.service";
 
 

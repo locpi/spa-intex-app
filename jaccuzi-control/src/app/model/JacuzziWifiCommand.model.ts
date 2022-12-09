@@ -1,5 +1,5 @@
 import {Injectable} from "@angular/core";
-import {WifiService} from "../../services/wifi-service.service";
+import {WifiService} from "../services/wifi-service.service";
 
 @Injectable({
   providedIn: 'root',

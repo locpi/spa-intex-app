@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {JacuzziWifiCommand} from "../tab2/model/JacuzziWifiCommand.model";
+import {Component} from '@angular/core';
+import {JacuzziWifiCommand} from "../model/JacuzziWifiCommand.model";
 
 @Component({
   selector: 'app-tab3',
@@ -8,6 +8,7 @@ import {JacuzziWifiCommand} from "../tab2/model/JacuzziWifiCommand.model";
 })
 export class Tab3Page {
 
-  constructor(public jacuzziWifiCommand:JacuzziWifiCommand) {}
+  constructor(public jacuzziWifiCommand: JacuzziWifiCommand) {
+  }
 
 }

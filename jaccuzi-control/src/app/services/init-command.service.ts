@@ -1,13 +1,12 @@
 import {environment} from "../../environments/environment";
 import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
-import {JacuzziPowerCommand} from "../tab2/model/JacuzziPowerCommand.model";
-import {JacuzziFilterCommand} from "../tab2/model/JacuzziFilterCommand.model";
-import {JacuzziHeaterCommand} from "../tab2/model/JacuzziHeaterCommand.model";
-import {JacuzziBubbleCommand} from "../tab2/model/JacuzziBubbleCommand.model";
-import {JacuzziTemperatureExpectedCommand} from "../tab2/model/JacuzziTemperatureExpectedCommand.model";
-import {TemperatureActualService} from "./temperature-actual-service.service";
-import {JacuzziTemperatureActualCommand} from "../tab2/model/JacuzziTemperatureActualCommand.model";
+import {JacuzziPowerCommand} from "../model/JacuzziPowerCommand.model";
+import {JacuzziFilterCommand} from "../model/JacuzziFilterCommand.model";
+import {JacuzziHeaterCommand} from "../model/JacuzziHeaterCommand.model";
+import {JacuzziBubbleCommand} from "../model/JacuzziBubbleCommand.model";
+import {JacuzziTemperatureExpectedCommand} from "../model/JacuzziTemperatureExpectedCommand.model";
+import {JacuzziTemperatureActualCommand} from "../model/JacuzziTemperatureActualCommand.model";
 
 export class JacuzziInformation {
   tempAct!: TemperatureInformation;

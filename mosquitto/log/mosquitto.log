@@ -4143,3 +4143,829 @@
 1670589852: Client admin-59 closed its connection.
 1670589908: New client connected from 172.22.3.1:61194 as admin-59 (p2, c1, k60, u'spa').
 1670589961: Client admin-59 closed its connection.
+1670590030: New client connected from 172.22.3.1:62934 as admin-59 (p2, c1, k60, u'spa').
+1670590097: Client admin-59 closed its connection.
+1670590119: Client admin-45 closed its connection.
+1670590156: New client connected from 172.22.3.1:58548 as admin-59 (p2, c1, k60, u'spa').
+1670590170: Client mqtt-explorer-ad4e1d54 disconnected.
+1670590216: Client admin-59 closed its connection.
+1670590251: Client admin-8 closed its connection.
+1670590269: New client connected from 172.22.3.1:64814 as admin-59 (p2, c1, k60, u'spa').
+1670590269: New client connected from 172.22.3.1:64812 as admin-45 (p2, c1, k60, u'spa').
+1670590291: New client connected from 172.22.3.1:59988 as admin-0 (p2, c1, k60, u'spa').
+1670590296: Client admin-45 closed its connection.
+1670590297: New client connected from 172.22.3.1:63536 as admin-24 (p2, c1, k60, u'spa').
+1670590298: Client admin-0 closed its connection.
+1670590298: New client connected from 172.22.3.1:63538 as admin-5 (p2, c1, k60, u'spa').
+1670590321: Client admin-24 closed its connection.
+1670590321: Client admin-5 closed its connection.
+1670590322: New client connected from 172.22.3.1:55318 as admin-18 (p2, c1, k60, u'spa').
+1670590322: New client connected from 172.22.3.1:55320 as admin-40 (p2, c1, k60, u'spa').
+1670590327: Client admin-59 closed its connection.
+1670590343: New connection from 172.22.3.1:60484 on port 1883.
+1670590343: New client connected from 172.22.3.1:60484 as mqtt-explorer-ad4e1d54 (p2, c1, k60, u'spa').
+1670590390: New client connected from 172.22.3.1:58398 as admin-59 (p2, c1, k60, u'spa').
+1670590446: Client admin-59 closed its connection.
+1670590474: Client admin-40 closed its connection.
+1670590474: Client admin-18 closed its connection.
+1670590475: New client connected from 172.22.3.1:59616 as admin-5 (p2, c1, k60, u'spa').
+1670590475: New client connected from 172.22.3.1:59618 as admin-64 (p2, c1, k60, u'spa').
+1670590489: Client admin-5 closed its connection.
+1670590489: New client connected from 172.22.3.1:63114 as admin-14 (p2, c1, k60, u'spa').
+1670590498: New client connected from 172.22.3.1:55096 as admin-59 (p2, c1, k60, u'spa').
+1670590560: Client admin-59 closed its connection.
+1670590639: Client mqtt-explorer-ad4e1d54 disconnected.
+1670590641: New client connected from 172.22.3.1:59728 as admin-59 (p2, c1, k60, u'spa').
+1670590684: Client admin-59 closed its connection.
+1670590737: New client connected from 172.22.3.1:57790 as admin-59 (p2, c1, k60, u'spa').
+1670590779: Client admin-64 closed its connection.
+1670590803: Client admin-59 closed its connection.
+1670590845: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670590863: New client connected from 172.22.3.1:61352 as admin-59 (p2, c1, k60, u'spa').
+1670590934: New client connected from 172.22.3.1:57716 as admin-64 (p2, c1, k60, u'spa').
+1670590943: Client admin-59 closed its connection.
+1670590978: Client admin-14 closed its connection.
+1670590992: Client admin-64 closed its connection.
+1670590993: New client connected from 172.22.3.1:60588 as admin-59 (p2, c1, k60, u'spa').
+1670591048: New client connected from 172.22.3.1:61882 as admin-64 (p2, c1, k60, u'spa').
+1670591051: Client admin-59 closed its connection.
+1670591099: New client connected from 172.22.3.1:59172 as admin-14 (p2, c1, k60, u'spa').
+1670591106: Client admin-64 closed its connection.
+1670591107: New client connected from 172.22.3.1:55964 as admin-59 (p2, c1, k60, u'spa').
+1670591158: New client connected from 172.22.3.1:58368 as admin-64 (p2, c1, k60, u'spa').
+1670591159: Client admin-59 closed its connection.
+1670591168: Client admin-14 closed its connection.
+1670591221: New client connected from 172.22.3.1:59716 as admin-14 (p2, c1, k60, u'spa').
+1670591238: New client connected from 172.22.3.1:58716 as admin-59 (p2, c1, k60, u'spa').
+1670591241: Client admin-64 closed its connection.
+1670591290: Client admin-14 closed its connection.
+1670591295: New client connected from 172.22.3.1:64588 as admin-64 (p2, c1, k60, u'spa').
+1670591296: Client admin-59 closed its connection.
+1670591353: Client admin-64 closed its connection.
+1670591355: New client connected from 172.22.3.1:57844 as admin-59 (p2, c1, k60, u'spa').
+1670591360: New client connected from 172.22.3.1:57842 as admin-14 (p2, c1, k60, u'spa').
+1670591399: Client admin-14 closed its connection.
+1670591406: New client connected from 172.22.3.1:57020 as admin-64 (p2, c1, k60, u'spa').
+1670591415: Client admin-59 closed its connection.
+1670591465: Client admin-64 closed its connection.
+1670591470: New client connected from 172.22.3.1:58160 as admin-14 (p2, c1, k60, u'spa').
+1670591473: New client connected from 172.22.3.1:62648 as admin-59 (p2, c1, k60, u'spa').
+1670591493: Client app-cible closed its connection.
+1670591498: New connection from 172.22.3.1:60200 on port 1883.
+1670591499: New client connected from 172.22.3.1:60200 as app-cible (p2, c1, k60, u'spa').
+1670591519: New client connected from 172.22.3.1:61096 as admin-64 (p2, c1, k60, u'spa').
+1670591524: Client admin-14 closed its connection.
+1670591530: Client admin-59 closed its connection.
+1670591580: New client connected from 172.22.3.1:62688 as admin-14 (p2, c1, k60, u'spa').
+1670591586: New client connected from 172.22.3.1:58648 as admin-59 (p2, c1, k60, u'spa').
+1670591586: Client admin-64 closed its connection.
+1670591638: Client admin-59 closed its connection.
+1670591643: Client admin-14 closed its connection.
+1670591643: New client connected from 172.22.3.1:61124 as admin-64 (p2, c1, k60, u'spa').
+1670591667: Client admin-64 closed its connection.
+1670591667: Client <unknown> closed its connection.
+1670591668: New client connected from 172.22.3.1:60436 as admin-34 (p2, c1, k60, u'spa').
+1670591668: New client connected from 172.22.3.1:60438 as admin-23 (p2, c1, k60, u'spa').
+1670591704: New client connected from 172.22.3.1:59822 as admin-59 (p2, c1, k60, u'spa').
+1670591724: Client admin-34 closed its connection.
+1670591724: Client admin-23 closed its connection.
+1670591725: New client connected from 172.22.3.1:65074 as admin-56 (p2, c1, k60, u'spa').
+1670591725: New client connected from 172.22.3.1:65076 as admin-51 (p2, c1, k60, u'spa').
+1670591748: New connection from 172.22.3.1:58352 on port 1883.
+1670591748: New client connected from 172.22.3.1:58352 as mqtt-explorer-ad4e1d54 (p2, c1, k60, u'spa').
+1670591761: Client admin-56 closed its connection.
+1670591761: New client connected from 172.22.3.1:60338 as admin-45 (p2, c1, k60, u'spa').
+1670591783: Client admin-59 closed its connection.
+1670591784: Client admin-45 closed its connection.
+1670591784: Client admin-51 closed its connection.
+1670591785: New client connected from 172.22.3.1:58932 as admin-17 (p2, c1, k60, u'spa').
+1670591785: New client connected from 172.22.3.1:58934 as admin-7 (p2, c1, k60, u'spa').
+1670591805: Client admin-17 closed its connection.
+1670591805: New client connected from 172.22.3.1:58944 as admin-57 (p2, c1, k60, u'spa').
+1670591829: Client admin-57 closed its connection.
+1670591829: New client connected from 172.22.3.1:63492 as admin-23 (p2, c1, k60, u'spa').
+1670591833: New client connected from 172.22.3.1:58930 as admin-59 (p2, c1, k60, u'spa').
+1670591869: Client admin-7 closed its connection.
+1670591869: Client admin-23 closed its connection.
+1670591869: New client connected from 172.22.3.1:62940 as admin-34 (p2, c1, k60, u'spa').
+1670591869: New client connected from 172.22.3.1:62942 as admin-37 (p2, c1, k60, u'spa').
+1670591891: Client admin-59 closed its connection.
+1670591901: Client admin-37 closed its connection.
+1670591901: Client admin-34 closed its connection.
+1670591902: New client connected from 172.22.3.1:63606 as admin-51 (p2, c1, k60, u'spa').
+1670591902: New client connected from 172.22.3.1:63608 as admin-18 (p2, c1, k60, u'spa').
+1670591940: Client admin-51 closed its connection.
+1670591940: Client admin-18 closed its connection.
+1670591941: New client connected from 172.22.3.1:59472 as admin-34 (p2, c1, k60, u'spa').
+1670591941: New client connected from 172.22.3.1:59474 as admin-62 (p2, c1, k60, u'spa').
+1670591947: New client connected from 172.22.3.1:63628 as admin-59 (p2, c1, k60, u'spa').
+1670591963: Client admin-34 closed its connection.
+1670591964: New client connected from 172.22.3.1:64852 as admin-68 (p2, c1, k60, u'spa').
+1670592000: Client admin-59 closed its connection.
+1670592039: Client admin-62 closed its connection.
+1670592040: New client connected from 172.22.3.1:55344 as admin-73 (p2, c1, k60, u'spa').
+1670592042: Client admin-68 closed its connection.
+1670592042: New client connected from 172.22.3.1:55346 as admin-5 (p2, c1, k60, u'spa').
+1670592061: New client connected from 172.22.3.1:61898 as admin-59 (p2, c1, k60, u'spa').
+1670592103: Client admin-73 closed its connection.
+1670592103: Client admin-5 closed its connection.
+1670592103: New client connected from 172.22.3.1:62100 as admin-42 (p2, c1, k60, u'spa').
+1670592103: New client connected from 172.22.3.1:62102 as admin-2 (p2, c1, k60, u'spa').
+1670592118: Client admin-59 closed its connection.
+1670592177: Client admin-2 closed its connection.
+1670592177: Client admin-42 closed its connection.
+1670592178: New client connected from 172.22.3.1:56956 as admin-67 (p2, c1, k60, u'spa').
+1670592178: New client connected from 172.22.3.1:56958 as admin-70 (p2, c1, k60, u'spa').
+1670592196: New client connected from 172.22.3.1:58036 as admin-59 (p2, c1, k60, u'spa').
+1670592231: Client admin-67 closed its connection.
+1670592231: Client admin-70 closed its connection.
+1670592232: New client connected from 172.22.3.1:55136 as admin-32 (p2, c1, k60, u'spa').
+1670592232: New client connected from 172.22.3.1:55138 as admin-61 (p2, c1, k60, u'spa').
+1670592238: Client admin-59 closed its connection.
+1670592280: Client admin-61 closed its connection.
+1670592280: Client admin-32 closed its connection.
+1670592281: New client connected from 172.22.3.1:55748 as admin-2 (p2, c1, k60, u'spa').
+1670592281: New client connected from 172.22.3.1:55750 as admin-25 (p2, c1, k60, u'spa').
+1670592315: New client connected from 172.22.3.1:62726 as admin-59 (p2, c1, k60, u'spa').
+1670592316: Client admin-25 closed its connection.
+1670592316: Client admin-2 closed its connection.
+1670592316: New client connected from 172.22.3.1:63560 as admin-3 (p2, c1, k60, u'spa').
+1670592316: New client connected from 172.22.3.1:63562 as admin-74 (p2, c1, k60, u'spa').
+1670592337: Client admin-3 closed its connection.
+1670592337: Client admin-74 closed its connection.
+1670592337: New client connected from 172.22.3.1:62648 as admin-20 (p2, c1, k60, u'spa').
+1670592337: New client connected from 172.22.3.1:62650 as admin-36 (p2, c1, k60, u'spa').
+1670592352: Client admin-36 closed its connection.
+1670592352: New client connected from 172.22.3.1:57446 as admin-30 (p2, c1, k60, u'spa').
+1670592366: Client admin-59 closed its connection.
+1670592429: New client connected from 172.22.3.1:61682 as admin-59 (p2, c1, k60, u'spa').
+1670592438: Client admin-20 closed its connection.
+1670592438: Client admin-59 already connected, closing old connection.
+1670592438: New client connected from 172.22.3.1:60034 as admin-59 (p2, c1, k60, u'spa').
+1670592438: Client admin-59 closed its connection.
+1670592448: Client admin-30 closed its connection.
+1670592450: New client connected from 172.22.3.1:57946 as admin-63 (p2, c1, k60, u'spa').
+1670592544: Client admin-59 already connected, closing old connection.
+1670592544: New client connected from 172.22.3.1:55670 as admin-59 (p2, c1, k60, u'spa').
+1670592544: Client admin-59 closed its connection.
+1670592560: Client admin-59 already connected, closing old connection.
+1670592560: New client connected from 172.22.3.1:57548 as admin-59 (p2, c1, k60, u'spa').
+1670592560: Client admin-59 closed its connection.
+1670592646: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670592681: Client admin-59 already connected, closing old connection.
+1670592681: New client connected from 172.22.3.1:59336 as admin-59 (p2, c1, k60, u'spa').
+1670592681: Client admin-59 closed its connection.
+1670592697: Client admin-59 already connected, closing old connection.
+1670592697: New client connected from 172.22.3.1:63108 as admin-59 (p2, c1, k60, u'spa').
+1670592697: Client admin-59 closed its connection.
+1670592790: Client admin-59 already connected, closing old connection.
+1670592790: New client connected from 172.22.3.1:65248 as admin-59 (p2, c1, k60, u'spa').
+1670592790: Client admin-59 closed its connection.
+1670592801: Client admin-63 closed its connection.
+1670592802: Client admin-59 already connected, closing old connection.
+1670592802: New client connected from 172.22.3.1:64282 as admin-59 (p2, c1, k60, u'spa').
+1670592802: Client admin-59 closed its connection.
+1670592825: Client admin-59 closed its connection.
+1670592825: New client connected from 172.22.3.1:57514 as admin-72 (p2, c1, k60, u'spa').
+1670592825: New client connected from 172.22.3.1:57516 as admin-38 (p2, c1, k60, u'spa').
+1670592855: Client admin-72 closed its connection.
+1670592855: Client admin-38 closed its connection.
+1670592855: New client connected from 172.22.3.1:61222 as admin-60 (p2, c1, k60, u'spa').
+1670592855: New client connected from 172.22.3.1:61224 as admin-13 (p2, c1, k60, u'spa').
+1670592871: Client admin-60 closed its connection.
+1670592871: Client admin-13 closed its connection.
+1670592871: New client connected from 172.22.3.1:61952 as admin-44 (p2, c1, k60, u'spa').
+1670592871: New client connected from 172.22.3.1:61954 as admin-28 (p2, c1, k60, u'spa').
+1670592904: New client connected from 172.22.3.1:55162 as admin-59 (p2, c1, k60, u'spa').
+1670592908: Client admin-44 closed its connection.
+1670592908: New client connected from 172.22.3.1:65074 as admin-73 (p2, c1, k60, u'spa').
+1670592961: Client admin-59 closed its connection.
+1670592982: Client admin-73 closed its connection.
+1670592982: Client admin-28 closed its connection.
+1670592982: New client connected from 172.22.3.1:61092 as admin-49 (p2, c1, k60, u'spa').
+1670592982: New client connected from 172.22.3.1:61094 as admin-31 (p2, c1, k60, u'spa').
+1670592992: Client admin-49 closed its connection.
+1670592992: New client connected from 172.22.3.1:61068 as admin-46 (p2, c1, k60, u'spa').
+1670593044: New client connected from 172.22.3.1:64394 as admin-59 (p2, c1, k60, u'spa').
+1670593045: Client admin-31 closed its connection.
+1670593045: Client admin-46 closed its connection.
+1670593045: New client connected from 172.22.3.1:64296 as admin-47 (p2, c1, k60, u'spa').
+1670593045: New client connected from 172.22.3.1:64298 as admin-1 (p2, c1, k60, u'spa').
+1670593057: Client admin-47 closed its connection.
+1670593057: Client admin-1 closed its connection.
+1670593057: New client connected from 172.22.3.1:62190 as admin-23 (p2, c1, k60, u'spa').
+1670593058: New client connected from 172.22.3.1:62192 as admin-62 (p2, c1, k60, u'spa').
+1670593093: Client admin-59 closed its connection.
+1670593150: New client connected from 172.22.3.1:62874 as admin-59 (p2, c1, k60, u'spa').
+1670593178: Client admin-23 closed its connection.
+1670593178: Client admin-62 closed its connection.
+1670593179: New client connected from 172.22.3.1:57540 as admin-29 (p2, c1, k60, u'spa').
+1670593179: New client connected from 172.22.3.1:57542 as admin-27 (p2, c1, k60, u'spa').
+1670593200: Client admin-59 closed its connection.
+1670593258: New client connected from 172.22.3.1:62182 as admin-59 (p2, c1, k60, u'spa').
+1670593319: Client admin-59 closed its connection.
+1670593387: New client connected from 172.22.3.1:57912 as admin-59 (p2, c1, k60, u'spa').
+1670593442: Client admin-59 closed its connection.
+1670593479: Client admin-27 closed its connection.
+1670593494: New client connected from 172.22.3.1:58316 as admin-27 (p2, c1, k60, u'spa').
+1670593520: New client connected from 172.22.3.1:63020 as admin-59 (p2, c1, k60, u'spa').
+1670593553: Client admin-29 closed its connection.
+1670593553: Client admin-27 closed its connection.
+1670593553: New client connected from 172.22.3.1:64294 as admin-36 (p2, c1, k60, u'spa').
+1670593553: New client connected from 172.22.3.1:64296 as admin-26 (p2, c1, k60, u'spa').
+1670593575: Client admin-59 closed its connection.
+1670593633: New client connected from 172.22.3.1:64740 as admin-59 (p2, c1, k60, u'spa').
+1670593659: Client admin-26 closed its connection.
+1670593659: Client admin-36 closed its connection.
+1670593659: New client connected from 172.22.3.1:55840 as admin-2 (p2, c1, k60, u'spa').
+1670593659: New client connected from 172.22.3.1:55842 as admin-60 (p2, c1, k60, u'spa').
+1670593682: Client admin-60 closed its connection.
+1670593682: Client admin-2 closed its connection.
+1670593682: New client connected from 172.22.3.1:63242 as admin-68 (p2, c1, k60, u'spa').
+1670593682: New client connected from 172.22.3.1:63244 as admin-32 (p2, c1, k60, u'spa').
+1670593691: Client admin-59 closed its connection.
+1670593719: Client admin-32 closed its connection.
+1670593719: Client admin-68 closed its connection.
+1670593720: New client connected from 172.22.3.1:60446 as admin-59 (p2, c1, k60, u'spa').
+1670593720: New client connected from 172.22.3.1:60448 as admin-2 (p2, c1, k60, u'spa').
+1670593733: Client admin-2 closed its connection.
+1670593733: Client admin-59 closed its connection.
+1670593734: New client connected from 172.22.3.1:63232 as admin-9 (p2, c1, k60, u'spa').
+1670593734: New client connected from 172.22.3.1:63234 as admin-1 (p2, c1, k60, u'spa').
+1670593745: Client admin-9 closed its connection.
+1670593745: Client admin-1 closed its connection.
+1670593745: New client connected from 172.22.3.1:58888 as admin-14 (p2, c1, k60, u'spa').
+1670593745: New client connected from 172.22.3.1:58890 as admin-16 (p2, c1, k60, u'spa').
+1670593747: New client connected from 172.22.3.1:61632 as admin-59 (p2, c1, k60, u'spa').
+1670593786: Client admin-14 closed its connection.
+1670593786: Client admin-16 closed its connection.
+1670593786: New client connected from 172.22.3.1:56168 as admin-61 (p2, c1, k60, u'spa').
+1670593786: New client connected from 172.22.3.1:65494 as admin-73 (p2, c1, k60, u'spa').
+1670593795: Client admin-73 closed its connection.
+1670593795: Client admin-61 closed its connection.
+1670593795: New client connected from 172.22.3.1:65496 as admin-17 (p2, c1, k60, u'spa').
+1670593795: New client connected from 172.22.3.1:65498 as admin-15 (p2, c1, k60, u'spa').
+1670593800: Client admin-59 closed its connection.
+1670593861: Client admin-17 closed its connection.
+1670593861: Client admin-15 closed its connection.
+1670593862: New client connected from 172.22.3.1:60896 as admin-57 (p2, c1, k60, u'spa').
+1670593862: New client connected from 172.22.3.1:60898 as admin-27 (p2, c1, k60, u'spa').
+1670593876: New client connected from 172.22.3.1:59686 as admin-59 (p2, c1, k60, u'spa').
+1670593921: Client admin-59 closed its connection.
+1670593995: New client connected from 172.22.3.1:62738 as admin-59 (p2, c1, k60, u'spa').
+1670594054: Client admin-59 closed its connection.
+1670594113: New client connected from 172.22.3.1:57768 as admin-59 (p2, c1, k60, u'spa').
+1670594123: Client app-cible closed its connection.
+1670594152: New connection from 172.22.3.1:56568 on port 1883.
+1670594152: New client connected from 172.22.3.1:56568 as app-cible (p2, c1, k60, u'spa').
+1670594170: Client admin-59 closed its connection.
+1670594191: Client admin-57 closed its connection.
+1670594191: New client connected from 172.22.3.1:61200 as admin-5 (p2, c1, k60, u'spa').
+1670594193: Client admin-27 closed its connection.
+1670594204: Client admin-5 closed its connection.
+1670594204: New client connected from 172.22.3.1:57890 as admin-43 (p2, c1, k60, u'spa').
+1670594229: Client app-cible closed its connection.
+1670594230: New client connected from 172.22.3.1:64530 as admin-59 (p2, c1, k60, u'spa').
+1670594232: New connection from 172.22.3.1:56902 on port 1883.
+1670594233: New client connected from 172.22.3.1:56902 as app-cible (p2, c1, k60, u'spa').
+1670594284: Client admin-59 closed its connection.
+1670594327: Client mqtt-explorer-ad4e1d54 disconnected.
+1670594339: New client connected from 172.22.3.1:57826 as admin-59 (p2, c1, k60, u'spa').
+1670594350: New client connected from 172.22.3.1:56494 as admin-27 (p2, c1, k60, u'spa').
+1670594397: Client admin-27 closed its connection.
+1670594397: Client admin-59 closed its connection.
+1670594413: New connection from 172.22.3.1:59032 on port 1883.
+1670594413: New client connected from 172.22.3.1:59032 as mqtt-explorer-ad4e1d54 (p2, c1, k60, u'spa').
+1670594423: Client admin-43 closed its connection.
+1670594424: New client connected from 172.22.3.1:60044 as admin-52 (p2, c1, k60, u'spa').
+1670594447: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670594457: New client connected from 172.22.3.1:62692 as admin-27 (p2, c1, k60, u'spa').
+1670594457: New client connected from 172.22.3.1:62690 as admin-59 (p2, c1, k60, u'spa').
+1670594514: Client admin-52 closed its connection.
+1670594514: New client connected from 172.22.3.1:62220 as admin-56 (p2, c1, k60, u'spa').
+1670594517: Client admin-59 closed its connection.
+1670594517: Client admin-27 closed its connection.
+1670594539: Client admin-56 closed its connection.
+1670594540: New client connected from 172.22.3.1:55702 as admin-74 (p2, c1, k60, u'spa').
+1670594544: Client admin-74 closed its connection.
+1670594544: New client connected from 172.22.3.1:55704 as admin-54 (p2, c1, k60, u'spa').
+1670594562: Client <unknown> closed its connection.
+1670594562: Client admin-54 closed its connection.
+1670594563: New client connected from 172.22.3.1:65144 as admin-32 (p2, c1, k60, u'spa').
+1670594563: New client connected from 172.22.3.1:65146 as admin-24 (p2, c1, k60, u'spa').
+1670594577: New client connected from 172.22.3.1:62312 as admin-59 (p2, c1, k60, u'spa').
+1670594637: Client admin-59 closed its connection.
+1670594697: New client connected from 172.22.3.1:56674 as admin-59 (p2, c1, k60, u'spa').
+1670594751: Client mqtt-explorer-ad4e1d54 disconnected.
+1670594757: Client admin-59 closed its connection.
+1670594817: New client connected from 172.22.3.1:63244 as admin-59 (p2, c1, k60, u'spa').
+1670594841: Client admin-24 closed its connection.
+1670594877: Client admin-59 closed its connection.
+1670594937: New client connected from 172.22.3.1:62464 as admin-59 (p2, c1, k60, u'spa').
+1670594997: New client connected from 172.22.3.1:61384 as admin-24 (p2, c1, k60, u'spa').
+1670594997: Client admin-59 closed its connection.
+1670595057: Client admin-24 closed its connection.
+1670595057: New client connected from 172.22.3.1:65190 as admin-59 (p2, c1, k60, u'spa').
+1670595117: Client admin-59 closed its connection.
+1670595117: New client connected from 172.22.3.1:58554 as admin-24 (p2, c1, k60, u'spa').
+1670595177: New client connected from 172.22.3.1:64806 as admin-59 (p2, c1, k60, u'spa').
+1670595177: Client admin-24 closed its connection.
+1670595237: Client admin-59 closed its connection.
+1670595237: New client connected from 172.22.3.1:57740 as admin-24 (p2, c1, k60, u'spa').
+1670595297: New client connected from 172.22.3.1:60666 as admin-59 (p2, c1, k60, u'spa').
+1670595297: Client admin-24 closed its connection.
+1670595357: New client connected from 172.22.3.1:57598 as admin-24 (p2, c1, k60, u'spa').
+1670595357: Client admin-59 closed its connection.
+1670595417: New client connected from 172.22.3.1:57524 as admin-59 (p2, c1, k60, u'spa').
+1670595417: Client admin-24 closed its connection.
+1670595477: Client admin-59 closed its connection.
+1670595477: New client connected from 172.22.3.1:59370 as admin-24 (p2, c1, k60, u'spa').
+1670595537: Client admin-24 closed its connection.
+1670595537: New client connected from 172.22.3.1:61818 as admin-59 (p2, c1, k60, u'spa').
+1670595597: Client admin-59 closed its connection.
+1670595597: New client connected from 172.22.3.1:61138 as admin-24 (p2, c1, k60, u'spa').
+1670595657: Client admin-24 closed its connection.
+1670595657: New client connected from 172.22.3.1:63668 as admin-59 (p2, c1, k60, u'spa').
+1670595717: New client connected from 172.22.3.1:63648 as admin-24 (p2, c1, k60, u'spa').
+1670595717: Client admin-59 closed its connection.
+1670595777: Client admin-24 closed its connection.
+1670595777: New client connected from 172.22.3.1:56764 as admin-59 (p2, c1, k60, u'spa').
+1670595837: New client connected from 172.22.3.1:56136 as admin-24 (p2, c1, k60, u'spa').
+1670595837: Client admin-59 closed its connection.
+1670595897: Client admin-24 closed its connection.
+1670595897: New client connected from 172.22.3.1:58824 as admin-59 (p2, c1, k60, u'spa').
+1670595957: New client connected from 172.22.3.1:61290 as admin-24 (p2, c1, k60, u'spa').
+1670595957: Client admin-59 closed its connection.
+1670596017: New client connected from 172.22.3.1:58622 as admin-59 (p2, c1, k60, u'spa').
+1670596017: Client admin-24 closed its connection.
+1670596077: Client admin-59 closed its connection.
+1670596077: New client connected from 172.22.3.1:62658 as admin-24 (p2, c1, k60, u'spa').
+1670596137: New client connected from 172.22.3.1:57084 as admin-59 (p2, c1, k60, u'spa').
+1670596137: Client admin-24 closed its connection.
+1670596197: Client admin-59 closed its connection.
+1670596197: New client connected from 172.22.3.1:59858 as admin-24 (p2, c1, k60, u'spa').
+1670596248: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670596257: New client connected from 172.22.3.1:60230 as admin-59 (p2, c1, k60, u'spa').
+1670596257: Client admin-24 closed its connection.
+1670596317: New client connected from 172.22.3.1:63392 as admin-24 (p2, c1, k60, u'spa').
+1670596317: Client admin-59 closed its connection.
+1670596377: New client connected from 172.22.3.1:59416 as admin-59 (p2, c1, k60, u'spa').
+1670596377: Client admin-24 closed its connection.
+1670596437: Client admin-59 closed its connection.
+1670596437: New client connected from 172.22.3.1:55020 as admin-24 (p2, c1, k60, u'spa').
+1670596497: Client admin-24 closed its connection.
+1670596497: New client connected from 172.22.3.1:63716 as admin-59 (p2, c1, k60, u'spa').
+1670596557: Client admin-59 closed its connection.
+1670596557: New client connected from 172.22.3.1:56904 as admin-24 (p2, c1, k60, u'spa').
+1670596617: Client admin-24 closed its connection.
+1670596617: New client connected from 172.22.3.1:61844 as admin-59 (p2, c1, k60, u'spa').
+1670596678: Client admin-59 closed its connection.
+1670596678: New client connected from 172.22.3.1:65158 as admin-24 (p2, c1, k60, u'spa').
+1670596749: Client admin-24 closed its connection.
+1670596753: New client connected from 172.22.3.1:64760 as admin-59 (p2, c1, k60, u'spa').
+1670596804: New client connected from 172.22.3.1:57174 as admin-24 (p2, c1, k60, u'spa').
+1670596818: Client admin-59 closed its connection.
+1670596819: Client app-cible closed its connection.
+1670596824: New connection from 172.22.3.1:65502 on port 1883.
+1670596824: New client connected from 172.22.3.1:65502 as app-cible (p2, c1, k60, u'spa').
+1670596863: Client admin-24 closed its connection.
+1670596865: New client connected from 172.22.3.1:62398 as admin-59 (p2, c1, k60, u'spa').
+1670596905: Client app-cible closed its connection.
+1670596910: New connection from 172.22.3.1:56050 on port 1883.
+1670596910: New client connected from 172.22.3.1:56050 as app-cible (p2, c1, k60, u'spa').
+1670596918: New client connected from 172.22.3.1:55552 as admin-15 (p2, c1, k60, u'spa').
+1670596918: New client connected from 172.22.3.1:64274 as admin-24 (p2, c1, k60, u'spa').
+1670596918: Client admin-59 closed its connection.
+1670596927: New connection from 172.22.3.1:62042 on port 1883.
+1670596927: New client connected from 172.22.3.1:62042 as mqtt-explorer-ad4e1d54 (p2, c1, k60, u'spa').
+1670596930: Client app-cible closed its connection.
+1670596931: New connection from 172.22.3.1:62044 on port 1883.
+1670596931: New client connected from 172.22.3.1:62044 as app-cible (p2, c1, k60, u'spa').
+1670596935: Client admin-15 closed its connection.
+1670596935: Client admin-32 already connected, closing old connection.
+1670596935: New client connected from 172.22.3.1:58920 as admin-32 (p2, c1, k60, u'spa').
+1670596935: Client admin-32 closed its connection.
+1670596945: Client admin-32 already connected, closing old connection.
+1670596945: New client connected from 172.22.3.1:55692 as admin-32 (p2, c1, k60, u'spa').
+1670596945: Client admin-32 closed its connection.
+1670596946: New client connected from 172.22.3.1:55694 as admin-2 (p2, c1, k60, u'spa').
+1670596956: Client admin-2 closed its connection.
+1670596957: New client connected from 172.22.3.1:56234 as admin-37 (p2, c1, k60, u'spa').
+1670596969: Client mqtt-explorer-ad4e1d54 disconnected.
+1670596972: New connection from 172.22.3.1:62848 on port 1883.
+1670596972: New client connected from 172.22.3.1:62848 as mqtt-explorer-ad4e1d54 (p2, c1, k60, u'spa').
+1670596979: Client admin-24 closed its connection.
+1670596987: New client connected from 172.22.3.1:55554 as admin-59 (p2, c1, k60, u'spa').
+1670597046: Client admin-59 closed its connection.
+1670597047: Client app-cible closed its connection.
+1670597051: New connection from 172.22.3.1:59494 on port 1883.
+1670597051: New client connected from 172.22.3.1:59494 as app-cible (p2, c1, k60, u'spa').
+1670597054: New client connected from 172.22.3.1:62908 as admin-24 (p2, c1, k60, u'spa').
+1670597062: Client app-cible closed its connection.
+1670597066: New connection from 172.22.3.1:61350 on port 1883.
+1670597066: New client connected from 172.22.3.1:61350 as app-cible (p2, c1, k60, u'spa').
+1670597085: Client app-cible closed its connection.
+1670597086: New connection from 172.22.3.1:64820 on port 1883.
+1670597086: New client connected from 172.22.3.1:64820 as app-cible (p2, c1, k60, u'spa').
+1670597098: New client connected from 172.22.3.1:56132 as admin-59 (p2, c1, k60, u'spa').
+1670597118: Client admin-24 closed its connection.
+1670597127: Client app-cible closed its connection.
+1670597132: New connection from 172.22.3.1:64210 on port 1883.
+1670597132: New client connected from 172.22.3.1:64210 as app-cible (p2, c1, k60, u'spa').
+1670597157: Client admin-59 closed its connection.
+1670597163: New client connected from 172.22.3.1:63304 as admin-24 (p2, c1, k60, u'spa').
+1670597235: Client admin-24 closed its connection.
+1670597235: New client connected from 172.22.3.1:59366 as admin-59 (p2, c1, k60, u'spa').
+1670597294: New client connected from 172.22.3.1:56958 as admin-24 (p2, c1, k60, u'spa').
+1670597297: Client admin-59 closed its connection.
+1670597352: Client admin-24 closed its connection.
+1670597356: New client connected from 172.22.3.1:65472 as admin-59 (p2, c1, k60, u'spa').
+1670597407: New client connected from 172.22.3.1:55248 as admin-24 (p2, c1, k60, u'spa').
+1670597410: Client admin-59 closed its connection.
+1670597412: Client app-cible closed its connection.
+1670597414: New connection from 172.22.3.1:62914 on port 1883.
+1670597415: New client connected from 172.22.3.1:62914 as app-cible (p2, c1, k60, u'spa').
+1670597465: Client admin-24 closed its connection.
+1670597474: New client connected from 172.22.3.1:61010 as admin-59 (p2, c1, k60, u'spa').
+1670597485: Client app-cible closed its connection.
+1670597490: New connection from 172.22.3.1:63412 on port 1883.
+1670597491: New client connected from 172.22.3.1:63412 as app-cible (p2, c1, k60, u'spa').
+1670597517: New client connected from 172.22.3.1:61538 as admin-24 (p2, c1, k60, u'spa').
+1670597518: Client admin-59 closed its connection.
+1670597519: Client admin-37 closed its connection.
+1670597519: New client connected from 172.22.3.1:59702 as admin-77 (p2, c1, k60, u'spa').
+1670597563: Client admin-77 closed its connection.
+1670597563: Client admin-24 closed its connection.
+1670597563: Client admin-32 closed its connection.
+1670597563: New client connected from 172.22.3.1:57526 as admin-62 (p2, c1, k60, u'spa').
+1670597563: New client connected from 172.22.3.1:57528 as admin-13 (p2, c1, k60, u'spa').
+1670597563: New client connected from 172.22.3.1:57530 as admin-8 (p2, c1, k60, u'spa').
+1670597584: New client connected from 172.22.3.1:59700 as admin-59 (p2, c1, k60, u'spa').
+1670597598: Client admin-62 closed its connection.
+1670597598: Client admin-8 closed its connection.
+1670597598: Client admin-13 closed its connection.
+1670597598: New client connected from 172.22.3.1:60344 as admin-47 (p2, c1, k60, u'spa').
+1670597598: New client connected from 172.22.3.1:60346 as admin-49 (p2, c1, k60, u'spa').
+1670597598: New client connected from 172.22.3.1:60348 as admin-2 (p2, c1, k60, u'spa').
+1670597632: Client admin-47 closed its connection.
+1670597632: Client admin-2 closed its connection.
+1670597632: Client admin-49 closed its connection.
+1670597632: New client connected from 172.22.3.1:64846 as admin-39 (p2, c1, k60, u'spa').
+1670597633: New client connected from 172.22.3.1:64848 as admin-57 (p2, c1, k60, u'spa').
+1670597633: New client connected from 172.22.3.1:64850 as admin-65 (p2, c1, k60, u'spa').
+1670597638: Client admin-39 closed its connection.
+1670597638: Client admin-57 closed its connection.
+1670597638: Client admin-65 closed its connection.
+1670597639: New client connected from 172.22.3.1:59264 as admin-76 (p2, c1, k60, u'spa').
+1670597639: Client admin-59 closed its connection.
+1670597639: New client connected from 172.22.3.1:59268 as admin-6 (p2, c1, k60, u'spa').
+1670597639: New client connected from 172.22.3.1:59270 as admin-70 (p2, c1, k60, u'spa').
+1670597697: New client connected from 172.22.3.1:59266 as admin-59 (p2, c1, k60, u'spa').
+1670597738: Client admin-76 closed its connection.
+1670597738: Client admin-70 closed its connection.
+1670597738: Client admin-6 closed its connection.
+1670597739: New client connected from 172.22.3.1:61252 as admin-62 (p2, c1, k60, u'spa').
+1670597739: New client connected from 172.22.3.1:61254 as admin-55 (p2, c1, k60, u'spa').
+1670597739: New client connected from 172.22.3.1:61256 as admin-3 (p2, c1, k60, u'spa').
+1670597756: Client admin-3 closed its connection.
+1670597756: Client admin-55 closed its connection.
+1670597756: Client admin-62 closed its connection.
+1670597757: New client connected from 172.22.3.1:57230 as admin-53 (p2, c1, k60, u'spa').
+1670597757: New client connected from 172.22.3.1:57232 as admin-46 (p2, c1, k60, u'spa').
+1670597757: Client admin-59 closed its connection.
+1670597757: New client connected from 172.22.3.1:57234 as admin-24 (p2, c1, k60, u'spa').
+1670597771: Client admin-53 closed its connection.
+1670597771: Client admin-24 closed its connection.
+1670597771: Client admin-46 closed its connection.
+1670597772: New client connected from 172.22.3.1:56150 as admin-44 (p2, c1, k60, u'spa').
+1670597772: New client connected from 172.22.3.1:56152 as admin-68 (p2, c1, k60, u'spa').
+1670597772: New client connected from 172.22.3.1:56154 as admin-77 (p2, c1, k60, u'spa').
+1670597803: Client admin-44 closed its connection.
+1670597803: Client admin-77 closed its connection.
+1670597803: Client admin-68 closed its connection.
+1670597803: New client connected from 172.22.3.1:59326 as admin-48 (p2, c1, k60, u'spa').
+1670597803: New client connected from 172.22.3.1:59328 as admin-75 (p2, c1, k60, u'spa').
+1670597804: New client connected from 172.22.3.1:59330 as admin-15 (p2, c1, k60, u'spa').
+1670597823: New client connected from 172.22.3.1:57236 as admin-59 (p2, c1, k60, u'spa').
+1670597877: Client admin-59 closed its connection.
+1670597888: Client admin-48 closed its connection.
+1670597888: Client admin-15 closed its connection.
+1670597888: Client admin-75 closed its connection.
+1670597889: New client connected from 172.22.3.1:62590 as admin-35 (p2, c1, k60, u'spa').
+1670597889: New client connected from 172.22.3.1:62592 as admin-24 (p2, c1, k60, u'spa').
+1670597889: New client connected from 172.22.3.1:62594 as admin-40 (p2, c1, k60, u'spa').
+1670597945: New client connected from 172.22.3.1:60148 as admin-59 (p2, c1, k60, u'spa').
+1670598006: Client admin-35 closed its connection.
+1670598006: Client admin-24 closed its connection.
+1670598006: Client admin-40 closed its connection.
+1670598006: Client admin-59 closed its connection.
+1670598006: New client connected from 172.22.3.1:58362 as admin-75 (p2, c1, k60, u'spa').
+1670598006: Client admin-66 already connected, closing old connection.
+1670598006: New client connected from 172.22.3.1:58364 as admin-66 (p2, c1, k60, u'spa').
+1670598006: Client admin-66 closed its connection.
+1670598007: New client connected from 172.22.3.1:58366 as admin-5 (p2, c1, k60, u'spa').
+1670598017: Client admin-66 already connected, closing old connection.
+1670598017: New client connected from 172.22.3.1:61330 as admin-66 (p2, c1, k60, u'spa').
+1670598017: Client admin-66 closed its connection.
+1670598021: Client admin-75 closed its connection.
+1670598021: Client admin-5 closed its connection.
+1670598021: New client connected from 172.22.3.1:61332 as admin-2 (p2, c1, k60, u'spa').
+1670598021: New client connected from 172.22.3.1:61334 as admin-24 (p2, c1, k60, u'spa').
+1670598022: New client connected from 172.22.3.1:61336 as admin-55 (p2, c1, k60, u'spa').
+1670598038: Client admin-2 closed its connection.
+1670598038: Client admin-24 closed its connection.
+1670598038: Client admin-55 closed its connection.
+1670598039: New client connected from 172.22.3.1:58700 as admin-64 (p2, c1, k60, u'spa').
+1670598039: New client connected from 172.22.3.1:58702 as admin-44 (p2, c1, k60, u'spa').
+1670598039: New client connected from 172.22.3.1:58704 as admin-45 (p2, c1, k60, u'spa').
+1670598049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1670598056: Client admin-64 closed its connection.
+1670598056: Client admin-45 closed its connection.
+1670598056: Client admin-44 closed its connection.
+1670598057: New client connected from 172.22.3.1:56902 as admin-12 (p2, c1, k60, u'spa').
+1670598057: New client connected from 172.22.3.1:56904 as admin-54 (p2, c1, k60, u'spa').
+1670598057: New client connected from 172.22.3.1:56906 as admin-11 (p2, c1, k60, u'spa').
+1670598066: New client connected from 172.22.3.1:58360 as admin-59 (p2, c1, k60, u'spa').
+1670598079: Client admin-12 closed its connection.
+1670598079: Client admin-11 closed its connection.
+1670598079: Client admin-54 closed its connection.
+1670598079: Client admin-66 already connected, closing old connection.
+1670598079: New client connected from 172.22.3.1:58438 as admin-66 (p2, c1, k60, u'spa').
+1670598079: Client admin-66 closed its connection.
+1670598080: New client connected from 172.22.3.1:58440 as admin-47 (p2, c1, k60, u'spa').
+1670598080: New client connected from 172.22.3.1:58442 as admin-34 (p2, c1, k60, u'spa').
+1670598090: Client admin-66 already connected, closing old connection.
+1670598090: New client connected from 172.22.3.1:61648 as admin-66 (p2, c1, k60, u'spa').
+1670598090: Client admin-66 closed its connection.
+1670598100: Client admin-66 already connected, closing old connection.
+1670598100: New client connected from 172.22.3.1:63010 as admin-66 (p2, c1, k60, u'spa').
+1670598100: Client admin-66 closed its connection.
+1670598111: Client admin-66 already connected, closing old connection.
+1670598111: New client connected from 172.22.3.1:65258 as admin-66 (p2, c1, k60, u'spa').
+1670598111: Client admin-66 closed its connection.
+1670598120: Client admin-59 closed its connection.
+1670598121: Client admin-66 already connected, closing old connection.
+1670598121: New client connected from 172.22.3.1:59152 as admin-66 (p2, c1, k60, u'spa').
+1670598121: Client admin-66 closed its connection.
+1670598131: Client admin-66 already connected, closing old connection.
+1670598131: New client connected from 172.22.3.1:60598 as admin-66 (p2, c1, k60, u'spa').
+1670598131: Client admin-66 closed its connection.
+1670598141: Client admin-66 already connected, closing old connection.
+1670598141: New client connected from 172.22.3.1:56498 as admin-66 (p2, c1, k60, u'spa').
+1670598141: Client admin-66 closed its connection.
+1670598152: Client admin-66 already connected, closing old connection.
+1670598152: New client connected from 172.22.3.1:56362 as admin-66 (p2, c1, k60, u'spa').
+1670598152: Client admin-66 closed its connection.
+1670598162: Client admin-66 already connected, closing old connection.
+1670598162: New client connected from 172.22.3.1:60994 as admin-66 (p2, c1, k60, u'spa').
+1670598162: Client admin-66 closed its connection.
+1670598172: Client admin-66 already connected, closing old connection.
+1670598172: New client connected from 172.22.3.1:59300 as admin-66 (p2, c1, k60, u'spa').
+1670598172: Client admin-66 closed its connection.
+1670598182: Client admin-66 already connected, closing old connection.
+1670598182: New client connected from 172.22.3.1:61340 as admin-66 (p2, c1, k60, u'spa').
+1670598182: Client admin-66 closed its connection.
+1670598192: Client admin-66 already connected, closing old connection.
+1670598192: New client connected from 172.22.3.1:56618 as admin-66 (p2, c1, k60, u'spa').
+1670598192: Client admin-66 closed its connection.
+1670598200: New client connected from 172.22.3.1:59150 as admin-59 (p2, c1, k60, u'spa').
+1670598203: Client admin-66 already connected, closing old connection.
+1670598203: New client connected from 172.22.3.1:58696 as admin-66 (p2, c1, k60, u'spa').
+1670598203: Client admin-66 closed its connection.
+1670598213: Client admin-66 already connected, closing old connection.
+1670598213: New client connected from 172.22.3.1:61646 as admin-66 (p2, c1, k60, u'spa').
+1670598213: Client admin-66 closed its connection.
+1670598223: Client admin-66 already connected, closing old connection.
+1670598223: New client connected from 172.22.3.1:62810 as admin-66 (p2, c1, k60, u'spa').
+1670598223: Client admin-66 closed its connection.
+1670598233: Client admin-66 already connected, closing old connection.
+1670598233: New client connected from 172.22.3.1:56296 as admin-66 (p2, c1, k60, u'spa').
+1670598233: Client admin-66 closed its connection.
+1670598244: Client admin-66 already connected, closing old connection.
+1670598244: New client connected from 172.22.3.1:57376 as admin-66 (p2, c1, k60, u'spa').
+1670598244: Client admin-66 closed its connection.
+1670598254: Client admin-66 already connected, closing old connection.
+1670598254: New client connected from 172.22.3.1:60064 as admin-66 (p2, c1, k60, u'spa').
+1670598254: Client admin-66 closed its connection.
+1670598255: Client admin-59 closed its connection.
+1670598264: Client admin-66 already connected, closing old connection.
+1670598264: New client connected from 172.22.3.1:55352 as admin-66 (p2, c1, k60, u'spa').
+1670598264: Client admin-66 closed its connection.
+1670598274: Client admin-66 already connected, closing old connection.
+1670598274: New client connected from 172.22.3.1:55748 as admin-66 (p2, c1, k60, u'spa').
+1670598274: Client admin-66 closed its connection.
+1670598285: Client admin-66 already connected, closing old connection.
+1670598285: New client connected from 172.22.3.1:62156 as admin-66 (p2, c1, k60, u'spa').
+1670598285: Client admin-66 closed its connection.
+1670598295: Client admin-66 already connected, closing old connection.
+1670598295: New client connected from 172.22.3.1:58280 as admin-66 (p2, c1, k60, u'spa').
+1670598295: Client admin-66 closed its connection.
+1670598305: Client admin-66 already connected, closing old connection.
+1670598305: New client connected from 172.22.3.1:55530 as admin-66 (p2, c1, k60, u'spa').
+1670598305: Client admin-66 closed its connection.
+1670598313: New client connected from 172.22.3.1:60066 as admin-59 (p2, c1, k60, u'spa').
+1670598315: Client admin-66 already connected, closing old connection.
+1670598315: New client connected from 172.22.3.1:56802 as admin-66 (p2, c1, k60, u'spa').
+1670598315: Client admin-66 closed its connection.
+1670598326: Client admin-66 already connected, closing old connection.
+1670598326: New client connected from 172.22.3.1:58180 as admin-66 (p2, c1, k60, u'spa').
+1670598326: Client admin-66 closed its connection.
+1670598336: Client admin-66 already connected, closing old connection.
+1670598336: New client connected from 172.22.3.1:59456 as admin-66 (p2, c1, k60, u'spa').
+1670598336: Client admin-66 closed its connection.
+1670598346: Client admin-66 already connected, closing old connection.
+1670598346: New client connected from 172.22.3.1:61962 as admin-66 (p2, c1, k60, u'spa').
+1670598346: Client admin-66 closed its connection.
+1670598356: Client admin-66 already connected, closing old connection.
+1670598356: New client connected from 172.22.3.1:64772 as admin-66 (p2, c1, k60, u'spa').
+1670598356: Client admin-66 closed its connection.
+1670598366: Client admin-66 already connected, closing old connection.
+1670598366: New client connected from 172.22.3.1:56024 as admin-66 (p2, c1, k60, u'spa').
+1670598366: Client admin-66 closed its connection.
+1670598371: Client admin-59 closed its connection.
+1670598377: Client admin-66 already connected, closing old connection.
+1670598377: New client connected from 172.22.3.1:59234 as admin-66 (p2, c1, k60, u'spa').
+1670598377: Client admin-66 closed its connection.
+1670598387: Client admin-66 already connected, closing old connection.
+1670598387: New client connected from 172.22.3.1:63842 as admin-66 (p2, c1, k60, u'spa').
+1670598387: Client admin-66 closed its connection.
+1670598397: Client admin-66 already connected, closing old connection.
+1670598397: New client connected from 172.22.3.1:58604 as admin-66 (p2, c1, k60, u'spa').
+1670598397: Client admin-66 closed its connection.
+1670598407: Client admin-66 already connected, closing old connection.
+1670598407: New client connected from 172.22.3.1:60086 as admin-66 (p2, c1, k60, u'spa').
+1670598407: Client admin-66 closed its connection.
+1670598417: Client admin-47 closed its connection.
+1670598418: Client admin-66 already connected, closing old connection.
+1670598418: New client connected from 172.22.3.1:64606 as admin-66 (p2, c1, k60, u'spa').
+1670598418: Client admin-66 closed its connection.
+1670598427: New client connected from 172.22.3.1:56026 as admin-59 (p2, c1, k60, u'spa').
+1670598428: Client admin-66 already connected, closing old connection.
+1670598428: New client connected from 172.22.3.1:55540 as admin-66 (p2, c1, k60, u'spa').
+1670598428: Client admin-66 closed its connection.
+1670598433: New client connected from 172.22.3.1:55542 as admin-47 (p2, c1, k60, u'spa').
+1670598438: Client admin-66 already connected, closing old connection.
+1670598438: New client connected from 172.22.3.1:55436 as admin-66 (p2, c1, k60, u'spa').
+1670598438: Client admin-66 closed its connection.
+1670598449: Client admin-66 already connected, closing old connection.
+1670598449: New client connected from 172.22.3.1:59186 as admin-66 (p2, c1, k60, u'spa').
+1670598449: Client admin-66 closed its connection.
+1670598459: Client admin-66 already connected, closing old connection.
+1670598459: New client connected from 172.22.3.1:62342 as admin-66 (p2, c1, k60, u'spa').
+1670598459: Client admin-66 closed its connection.
+1670598468: Client admin-47 closed its connection.
+1670598468: Client admin-34 closed its connection.
+1670598468: New client connected from 172.22.3.1:63290 as admin-76 (p2, c1, k60, u'spa').
+1670598469: New client connected from 172.22.3.1:63292 as admin-30 (p2, c1, k60, u'spa').
+1670598469: New client connected from 172.22.3.1:63294 as admin-28 (p2, c1, k60, u'spa').
+1670598481: Client admin-59 closed its connection.
+1670598482: Client admin-76 closed its connection.
+1670598482: Client admin-28 closed its connection.
+1670598482: Client admin-30 closed its connection.
+1670598483: New client connected from 172.22.3.1:55120 as admin-74 (p2, c1, k60, u'spa').
+1670598483: New client connected from 172.22.3.1:55122 as admin-46 (p2, c1, k60, u'spa').
+1670598483: New client connected from 172.22.3.1:55124 as admin-50 (p2, c1, k60, u'spa').
+1670598505: Client admin-74 closed its connection.
+1670598505: Client admin-50 closed its connection.
+1670598505: Client admin-46 closed its connection.
+1670598505: New client connected from 172.22.3.1:57184 as admin-13 (p2, c1, k60, u'spa').
+1670598505: New client connected from 172.22.3.1:57186 as admin-26 (p2, c1, k60, u'spa').
+1670598505: New client connected from 172.22.3.1:57188 as admin-8 (p2, c1, k60, u'spa').
+1670598517: Client admin-13 closed its connection.
+1670598517: Client admin-26 closed its connection.
+1670598517: Client admin-8 closed its connection.
+1670598517: New client connected from 172.22.3.1:61964 as admin-31 (p2, c1, k60, u'spa').
+1670598517: New client connected from 172.22.3.1:61966 as admin-13 (p2, c1, k60, u'spa').
+1670598517: New client connected from 172.22.3.1:61968 as admin-55 (p2, c1, k60, u'spa').
+1670598537: New client connected from 172.22.3.1:55118 as admin-59 (p2, c1, k60, u'spa').
+1670598575: Client admin-31 closed its connection.
+1670598575: Client admin-55 closed its connection.
+1670598575: Client admin-13 closed its connection.
+1670598575: New client connected from 172.22.3.1:62360 as admin-21 (p2, c1, k60, u'spa').
+1670598576: New client connected from 172.22.3.1:62362 as admin-7 (p2, c1, k60, u'spa').
+1670598576: New client connected from 172.22.3.1:62364 as admin-8 (p2, c1, k60, u'spa').
+1670598598: Client admin-59 closed its connection.
+1670598678: New client connected from 172.22.3.1:56070 as admin-59 (p2, c1, k60, u'spa').
+1670598736: Client admin-59 closed its connection.
+1670598788: New client connected from 172.22.3.1:58142 as admin-59 (p2, c1, k60, u'spa').
+1670598853: Client admin-59 closed its connection.
+1670598911: New client connected from 172.22.3.1:59710 as admin-59 (p2, c1, k60, u'spa').
+1670598966: Client admin-59 closed its connection.
+1670599018: New client connected from 172.22.3.1:60416 as admin-59 (p2, c1, k60, u'spa').
+1670599053: Client admin-8 closed its connection.
+1670599100: Client admin-59 closed its connection.
+1670599155: New client connected from 172.22.3.1:58780 as admin-59 (p2, c1, k60, u'spa').
+1670599205: New client connected from 172.22.3.1:60296 as admin-8 (p2, c1, k60, u'spa').
+1670599214: Client admin-59 closed its connection.
+1670599257: Client admin-8 closed its connection.
+1670599263: Client admin-21 closed its connection.
+1670599263: Client <unknown> closed its connection.
+1670599263: Client admin-7 closed its connection.
+1670599263: New client connected from 172.22.3.1:56670 as admin-59 (p2, c1, k60, u'spa').
+1670599264: New client connected from 172.22.3.1:65338 as admin-50 (p2, c1, k60, u'spa').
+1670599264: New client connected from 172.22.3.1:65340 as admin-12 (p2, c1, k60, u'spa').
+1670599264: New client connected from 172.22.3.1:65342 as admin-74 (p2, c1, k60, u'spa').
+1670599305: Client admin-50 closed its connection.
+1670599305: Client admin-74 closed its connection.
+1670599305: Client admin-12 closed its connection.
+1670599305: New client connected from 172.22.3.1:55888 as admin-7 (p2, c1, k60, u'spa').
+1670599305: New client connected from 172.22.3.1:55890 as admin-26 (p2, c1, k60, u'spa').
+1670599306: New client connected from 172.22.3.1:55892 as admin-62 (p2, c1, k60, u'spa').
+1670599324: Client admin-59 closed its connection.
+1670599369: Client admin-7 closed its connection.
+1670599369: Client admin-26 closed its connection.
+1670599369: Client admin-62 closed its connection.
+1670599369: New client connected from 172.22.3.1:62432 as admin-12 (p2, c1, k60, u'spa').
+1670599370: New client connected from 172.22.3.1:62434 as admin-18 (p2, c1, k60, u'spa').
+1670599370: New client connected from 172.22.3.1:62436 as admin-4 (p2, c1, k60, u'spa').
+1670599380: New client connected from 172.22.3.1:64260 as admin-59 (p2, c1, k60, u'spa').
+1670599416: Client admin-12 closed its connection.
+1670599416: Client admin-4 closed its connection.
+1670599416: Client admin-18 closed its connection.
+1670599416: New client connected from 172.22.3.1:65534 as admin-52 (p2, c1, k60, u'spa').
+1670599417: New client connected from 172.22.3.1:55000 as admin-70 (p2, c1, k60, u'spa').
+1670599417: New client connected from 172.22.3.1:55002 as admin-60 (p2, c1, k60, u'spa').
+1670599441: Client admin-59 closed its connection.
+1670599451: Client admin-52 closed its connection.
+1670599451: Client admin-70 closed its connection.
+1670599451: Client admin-60 closed its connection.
+1670599451: New client connected from 172.22.3.1:55758 as admin-53 (p2, c1, k60, u'spa').
+1670599451: New client connected from 172.22.3.1:55760 as admin-44 (p2, c1, k60, u'spa').
+1670599451: New client connected from 172.22.3.1:55762 as admin-33 (p2, c1, k60, u'spa').
+1670599457: Client admin-53 closed its connection.
+1670599457: Client admin-44 closed its connection.
+1670599457: Client admin-33 closed its connection.
+1670599457: Client admin-66 already connected, closing old connection.
+1670599457: New client connected from 172.22.3.1:64888 as admin-66 (p2, c1, k60, u'spa').
+1670599457: Client admin-66 closed its connection.
+1670599458: New client connected from 172.22.3.1:64890 as admin-26 (p2, c1, k60, u'spa').
+1670599458: New client connected from 172.22.3.1:64892 as admin-0 (p2, c1, k60, u'spa').
+1670599468: Client admin-66 already connected, closing old connection.
+1670599468: New client connected from 172.22.3.1:60926 as admin-66 (p2, c1, k60, u'spa').
+1670599468: Client admin-66 closed its connection.
+1670599479: Client admin-66 already connected, closing old connection.
+1670599479: New client connected from 172.22.3.1:58852 as admin-66 (p2, c1, k60, u'spa').
+1670599479: Client admin-66 closed its connection.
+1670599489: Client admin-66 already connected, closing old connection.
+1670599489: New client connected from 172.22.3.1:60346 as admin-66 (p2, c1, k60, u'spa').
+1670599489: Client admin-66 closed its connection.
+1670599499: Client admin-66 already connected, closing old connection.
+1670599499: New client connected from 172.22.3.1:58842 as admin-66 (p2, c1, k60, u'spa').
+1670599499: Client admin-66 closed its connection.
+1670599501: New client connected from 172.22.3.1:59480 as admin-59 (p2, c1, k60, u'spa').
+1670599502: Client admin-66 closed its connection.
+1670599502: Client admin-26 closed its connection.
+1670599502: Client admin-0 closed its connection.
+1670599503: New client connected from 172.22.3.1:58844 as admin-54 (p2, c1, k60, u'spa').
+1670599503: New client connected from 172.22.3.1:58846 as admin-73 (p2, c1, k60, u'spa').
+1670599503: New client connected from 172.22.3.1:58848 as admin-43 (p2, c1, k60, u'spa').
+1670599510: New client connected from 172.22.3.1:64020 as admin-66 (p2, c1, k60, u'spa').
+1670599516: Client admin-54 closed its connection.
+1670599516: Client admin-43 closed its connection.
+1670599516: Client admin-73 closed its connection.
+1670599516: New client connected from 172.22.3.1:64022 as admin-77 (p2, c1, k60, u'spa').
+1670599516: New client connected from 172.22.3.1:59322 as admin-48 (p2, c1, k60, u'spa').
+1670599516: New client connected from 172.22.3.1:59324 as admin-18 (p2, c1, k60, u'spa').
+1670599533: Client admin-77 closed its connection.
+1670599533: Client admin-18 closed its connection.
+1670599533: Client admin-48 closed its connection.
+1670599533: New client connected from 172.22.3.1:62852 as admin-73 (p2, c1, k60, u'spa').
+1670599533: New client connected from 172.22.3.1:62854 as admin-40 (p2, c1, k60, u'spa').
+1670599533: New client connected from 172.22.3.1:62856 as admin-46 (p2, c1, k60, u'spa').
+1670599557: Client admin-59 closed its connection.
+1670599591: Client admin-73 closed its connection.
+1670599591: Client admin-46 closed its connection.
+1670599591: Client admin-40 closed its connection.
+1670599591: New client connected from 172.22.3.1:63362 as admin-11 (p2, c1, k60, u'spa').
+1670599591: New client connected from 172.22.3.1:63364 as admin-49 (p2, c1, k60, u'spa').
+1670599591: Client admin-49 already connected, closing old connection.
+1670599591: New client connected from 172.22.3.1:63366 as admin-49 (p2, c1, k60, u'spa').
+1670599591: Client admin-49 closed its connection.
+1670599602: Client admin-49 already connected, closing old connection.
+1670599602: New client connected from 172.22.3.1:55170 as admin-49 (p2, c1, k60, u'spa').
+1670599602: Client admin-49 closed its connection.
+1670599607: Client admin-11 closed its connection.
+1670599607: Client admin-49 closed its connection.
+1670599607: New client connected from 172.22.3.1:60994 as admin-14 (p2, c1, k60, u'spa').
+1670599607: New client connected from 172.22.3.1:60996 as admin-52 (p2, c1, k60, u'spa').
+1670599607: New client connected from 172.22.3.1:60998 as admin-74 (p2, c1, k60, u'spa').
+1670599621: New client connected from 172.22.3.1:62664 as admin-59 (p2, c1, k60, u'spa').
+1670599627: Client admin-14 closed its connection.
+1670599627: Client admin-52 closed its connection.
+1670599627: Client admin-74 closed its connection.
+1670599627: New client connected from 172.22.3.1:60466 as admin-56 (p2, c1, k60, u'spa').
+1670599628: New client connected from 172.22.3.1:60468 as admin-15 (p2, c1, k60, u'spa').
+1670599628: New client connected from 172.22.3.1:60470 as admin-51 (p2, c1, k60, u'spa').
+1670599647: Client admin-56 closed its connection.
+1670599647: Client admin-51 closed its connection.
+1670599647: Client admin-15 closed its connection.
+1670599648: New client connected from 172.22.3.1:55844 as admin-3 (p2, c1, k60, u'spa').
+1670599648: New client connected from 172.22.3.1:55846 as admin-77 (p2, c1, k60, u'spa').
+1670599648: New client connected from 172.22.3.1:55848 as admin-33 (p2, c1, k60, u'spa').
+1670599681: Client admin-59 closed its connection.
+1670599686: Client admin-3 closed its connection.
+1670599686: Client admin-77 closed its connection.
+1670599686: Client admin-33 closed its connection.
+1670599686: New client connected from 172.22.3.1:65242 as admin-1 (p2, c1, k60, u'spa').
+1670599687: New client connected from 172.22.3.1:65244 as admin-42 (p2, c1, k60, u'spa').
+1670599687: New client connected from 172.22.3.1:65246 as admin-44 (p2, c1, k60, u'spa').

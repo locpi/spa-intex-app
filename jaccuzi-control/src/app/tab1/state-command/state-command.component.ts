@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {DefaultCommand} from "../../tab2/model/DefaultCommand.model";
+import {DefaultCommand} from "../../model/DefaultCommand.model";
 
 @Component({
   selector: 'app-state-command',
@@ -17,4 +17,11 @@ export class StateCommandComponent implements OnInit {
   ngOnInit() {
   }
 
+  event() {
+    if (this.command.getValue()) {
+      this.command.powerOff()
+    } else {
+      this.command.powerOn()
+    }
+  }
 }

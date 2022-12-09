@@ -2,7 +2,7 @@ import {MqttMessageService} from "./connector/mqtt-message-service.service";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
 import {Inject, Injectable} from "@angular/core";
-import {AbstractCommand} from "../tab2/model/AbstractCommand";
+import {AbstractCommand} from "../model/AbstractCommand";
 
 
 @Injectable({

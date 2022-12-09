@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Subject} from "rxjs";
-import {TemperatureInformation} from "../../services/init-command.service";
+import {TemperatureInformation} from "../services/init-command.service";
 
 @Injectable({
   providedIn: 'root',

@@ -1,11 +1,11 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {Chart, registerables} from "chart.js";
-import {JacuzziFilterCommand} from "../tab2/model/JacuzziFilterCommand.model";
-import {JacuzziPowerCommand} from "../tab2/model/JacuzziPowerCommand.model";
-import {JacuzziBubbleCommand} from "../tab2/model/JacuzziBubbleCommand.model";
-import {JacuzziHeaterCommand} from "../tab2/model/JacuzziHeaterCommand.model";
-import {JacuzziTemperatureExpectedCommand} from "../tab2/model/JacuzziTemperatureExpectedCommand.model";
-import {JacuzziTemperatureActualCommand} from "../tab2/model/JacuzziTemperatureActualCommand.model";
+import {JacuzziFilterCommand} from "../model/JacuzziFilterCommand.model";
+import {JacuzziPowerCommand} from "../model/JacuzziPowerCommand.model";
+import {JacuzziBubbleCommand} from "../model/JacuzziBubbleCommand.model";
+import {JacuzziHeaterCommand} from "../model/JacuzziHeaterCommand.model";
+import {JacuzziTemperatureExpectedCommand} from "../model/JacuzziTemperatureExpectedCommand.model";
+import {JacuzziTemperatureActualCommand} from "../model/JacuzziTemperatureActualCommand.model";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
 

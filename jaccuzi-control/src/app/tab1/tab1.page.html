@@ -40,7 +40,7 @@
         <app-state-command [command]="jacuzziPowerCommand"></app-state-command>
       </ion-col>
     </ion-row>
-    <ion-row>
+    <ion-row *ngIf="jacuzziPowerCommand.getValue()">
       <ion-col>
         <app-state-command [command]="jacuzziFilterCommand"></app-state-command>
       </ion-col>

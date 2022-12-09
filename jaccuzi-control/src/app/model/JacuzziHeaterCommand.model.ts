@@ -4,10 +4,10 @@ import {AbstractCommand} from "./AbstractCommand";
 @Injectable({
   providedIn: 'root',
 })
-export class JacuzziPowerCommand extends AbstractCommand {
+export class JacuzziHeaterCommand extends AbstractCommand{
 
   constructor() {
-    super('Allumage du jaccuzi');
+    super('Chauffage');
   }
 
 }
