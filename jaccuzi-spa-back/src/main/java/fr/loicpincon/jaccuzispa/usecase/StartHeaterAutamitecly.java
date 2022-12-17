@@ -20,22 +20,28 @@ public class StartHeaterAutamitecly {
   public void execute() {
     JavaSpaInformationsEntity javaSpaInformationsEntity = service.get();
     soireeJaccuzRepository.findAllByFinish(false).forEach(soiree -> {
-      HeaterDecision build = HeaterDecision.builder()
-                                           .actualTime(LocalDateTime.now())
-                                           .forTime(soiree.getStartAt())
-                                           .tempAct(javaSpaInformationsEntity.getTempAct())
-                                           .tempSet(soiree.getTemperature())
-                                           .build();
-      if (build.startHeater()) {
-        if (build.diffTemperatureForTime() > 3) {
-          throw new RuntimeException("La temperature sera differente de plus de 3 degres, soirée annulé");
-        }
-        try {
-          if (!service.get().isHeater()) {
-            service.startHeater();
+      if (LocalDateTime.now().isAfter(soiree.getStartAt())) {
+        soiree.setFinish(true);
+        soireeJaccuzRepository.save(soiree);
+      } else {
+        HeaterDecision build = HeaterDecision.builder()
+                                             .actualTime(LocalDateTime.now())
+                                             .forTime(soiree.getStartAt())
+                                             .tempAct(javaSpaInformationsEntity.getTempAct())
+                                             .tempSet(soiree.getTemperature())
+                                             .build();
+
+        if (build.startHeater()) {
+          if (build.diffTemperatureForTime() > 3) {
+            throw new RuntimeException("La temperature sera differente de plus de 3 degres, soirée annulé");
           }
-        } catch (MqttException e) {
-          throw new RuntimeException(e);
+          try {
+            if (!service.get().isHeater()) {
+              service.startHeater();
+            }
+          } catch (MqttException e) {
+            throw new RuntimeException(e);
+          }
         }
       }
     });
