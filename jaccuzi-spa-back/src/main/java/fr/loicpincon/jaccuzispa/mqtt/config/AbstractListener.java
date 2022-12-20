@@ -18,7 +18,7 @@ public abstract class AbstractListener {
     init();
   }
 
-  public abstract void onMessage(String message);
+  public abstract void onMessage(String message) throws MqttException;
 
 
   public void init() throws MqttException, InterruptedException {

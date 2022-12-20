@@ -67,31 +67,118 @@ public class SpaService {
 
   public void startHeater() throws MqttException {
     if (!get().isPower()) {
-      command("power", "on");
+      managePower("on");
     }
     if (!get().isFilter()) {
-      command("filter", "on");
+      manageFilter("on");
     }
-    command("heater", "on");
+    manageHeater("on");
+  }
+
+  public void stopHeater() throws MqttException {
+    if (get().isPower() && get().isHeater()) {
+      manageHeater("off");
+    }
+  }
+
+  public void startBubble() throws MqttException {
+    if (!get().isPower()) {
+      managePower("on");
+    }
+    manageBubble("on");
+  }
+
+  public void stopBubble() throws MqttException {
+    if (get().isPower() && get().isBubble()) {
+      manageBubble("off");
+    }
+  }
+
+  public void startFilter() throws MqttException {
+    if (!get().isPower()) {
+      managePower("on");
+    }
+    manageFilter("on");
+  }
+
+  public void stopFilter() throws MqttException {
+    if (get().isPower() && get().isFilter()) {
+      manageHeater("off");
+    }
+  }
+
+  public void startPower() throws MqttException {
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    if (!javaSpaInformationsEntity.isPower()) {
+      publishService.send("pool/command/power", "on");
+    }
+  }
+
+  public void stopPower() throws MqttException {
+    JavaSpaInformationsEntity javaSpaInformationsEntity = spaRepository.getJavaSpaInformationsEntity();
+    if (javaSpaInformationsEntity.isPower()) {
+      if (javaSpaInformationsEntity.isBubble()) {
+        manageBubble("off");
+      }
+      if (javaSpaInformationsEntity.isHeater()) {
+        manageHeater("off");
+      }
+      if (javaSpaInformationsEntity.isFilter()) {
+        manageFilter("off");
+      }
+      managePower("off");
+    }
+  }
+
+  private void manageHeater(String state) throws MqttException {
+    publishService.send("pool/command/heater", state);
+  }
+
+  private void manageFilter(String state) throws MqttException {
+    publishService.send("pool/command/filter", state);
+
+  }
+
+  private void managePower(String state) throws MqttException {
+    publishService.send("pool/command/power", state);
+
+  }
+
+  private void manageBubble(String state) throws MqttException {
+    publishService.send("pool/command/bubble", state);
   }
 
   public void command(String command, String value) throws MqttException {
     switch (command) {
       case "power":
-        publishService.send("pool/command/power", value);
+        if (value.equals("on")) {
+          startPower();
+        } else {
+          stopPower();
+        }
         break;
       case "filter":
-        publishService.send("pool/command/filter", value);
+        if (value.equals("on")) {
+          startFilter();
+        } else {
+          stopFilter();
+        }
         break;
 
       case "bubble":
-        publishService.send("pool/command/bubble", value);
+        if (value.equals("on")) {
+          startBubble();
+        } else {
+          stopBubble();
+        }
         break;
-
       case "heater":
-        publishService.send("pool/command/heater", value);
+        if (value.equals("on")) {
+          startHeater();
+        } else {
+          stopHeater();
+        }
         break;
-
     }
   }
 }

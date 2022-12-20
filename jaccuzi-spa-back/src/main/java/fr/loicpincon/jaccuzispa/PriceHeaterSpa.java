@@ -27,6 +27,7 @@ public class PriceHeaterSpa {
 
   }
 
+
   public String getPriceForOneDayHeater() {
     LocalDateTime of = LocalDateTime.of(2022, 1, 1, 0, 0, 0);
     double price = 0;
