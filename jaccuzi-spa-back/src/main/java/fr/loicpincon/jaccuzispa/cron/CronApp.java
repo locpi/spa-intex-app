@@ -32,13 +32,11 @@ public class CronApp {
     heaterOnlyDuringLowerEdfHours.start();
   }
 
-  //@Scheduled(cron = "0 0 8 * * ?")
-  public void startHeaterAtMorning() {
+  @Scheduled(cron = "0 0 8 * * ?")
+  public void startHeaterAtMorning() throws MqttException {
     log.info("Stop heater night");
     heaterOnlyDuringLowerEdfHours.stop();
   }
-
-
 
 
 }

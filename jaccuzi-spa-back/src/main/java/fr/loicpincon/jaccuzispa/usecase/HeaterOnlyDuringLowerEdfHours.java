@@ -1,10 +1,8 @@
 package fr.loicpincon.jaccuzispa.usecase;
 
-import fr.loicpincon.jaccuzispa.HeaterDecision;
 import fr.loicpincon.jaccuzispa.repository.entity.JavaSpaInformationsEntity;
 import fr.loicpincon.jaccuzispa.repository.repository.SoireeJaccuzRepository;
 import fr.loicpincon.jaccuzispa.service.SpaService;
-import java.time.LocalDateTime;
 import lombok.RequiredArgsConstructor;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.springframework.stereotype.Component;
@@ -25,13 +23,18 @@ public class HeaterOnlyDuringLowerEdfHours {
 
 
   }
+
   public void start() throws MqttException {
     JavaSpaInformationsEntity javaSpaInformationsEntity = service.get();
-    if(!javaSpaInformationsEntity.isHeater()){
+    if (!javaSpaInformationsEntity.isHeater()) {
       service.startHeater();
     }
   }
 
-  public void stop() {
+  public void stop() throws MqttException {
+    JavaSpaInformationsEntity javaSpaInformationsEntity = service.get();
+    if (javaSpaInformationsEntity.isHeater()) {
+      service.stopHeater();
+    }
   }
 }
