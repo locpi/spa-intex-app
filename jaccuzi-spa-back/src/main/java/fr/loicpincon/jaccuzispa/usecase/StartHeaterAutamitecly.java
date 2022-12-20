@@ -1,5 +1,7 @@
 package fr.loicpincon.jaccuzispa.usecase;
 
+import static fr.loicpincon.jaccuzispa.repository.entity.SoireeJaccuzEntity.SESSION_DURATION_HOURS;
+
 import fr.loicpincon.jaccuzispa.HeaterDecision;
 import fr.loicpincon.jaccuzispa.repository.entity.JavaSpaInformationsEntity;
 import fr.loicpincon.jaccuzispa.repository.repository.SoireeJaccuzRepository;
@@ -20,7 +22,7 @@ public class StartHeaterAutamitecly {
   public void execute() {
     JavaSpaInformationsEntity javaSpaInformationsEntity = service.get();
     soireeJaccuzRepository.findAllByFinish(false).forEach(soiree -> {
-      if (LocalDateTime.now().isAfter(soiree.getStartAt())) {
+      if (LocalDateTime.now().isAfter(soiree.getStartAt().plusHours(SESSION_DURATION_HOURS))) {
         soiree.setFinish(true);
         soireeJaccuzRepository.save(soiree);
       } else {

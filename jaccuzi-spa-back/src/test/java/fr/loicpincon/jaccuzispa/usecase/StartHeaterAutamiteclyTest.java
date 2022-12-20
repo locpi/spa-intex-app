@@ -33,7 +33,7 @@ class StartHeaterAutamiteclyTest {
   @Test
   void should_be_start_heater() throws MqttException {
     // GIVEN
-    LocalDateTime nowMinusTenHours = now().minusHours(10);
+    LocalDateTime nowMinusTenHours = now().plusHours(10);
 
     Mockito.when(soireeJaccuzRepository.findAllByFinish(false))
            .thenReturn(List.of(build(nowMinusTenHours, 40)));
@@ -66,7 +66,7 @@ class StartHeaterAutamiteclyTest {
   void should_throw_exception_because_temperature_will_never_possible() throws MqttException {
     // GIVEN
 
-    LocalDateTime nowMinusTwoHours = now().minusHours(2);
+    LocalDateTime nowMinusTwoHours = now().plusHours(2);
 
     Mockito.when(soireeJaccuzRepository.findAllByFinish(false))
            .thenReturn(List.of(build(nowMinusTwoHours, 40)));
