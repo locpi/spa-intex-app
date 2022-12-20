@@ -1,6 +1,4 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import {JaccuziSimulationMock} from "./jaccuzi-simulation.mock";
-import {j} from "chart.js/dist/chunks/helpers.core";
+import {Component, OnInit} from '@angular/core';
 import {InitCommandService} from "./services/init-command.service";
 
 @Component({

@@ -4,43 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3281ba04-2be5-4d5d-942b-658bd91bf834" name="Changes" comment="add temperature stats">
+    <list default="true" id="3281ba04-2be5-4d5d-942b-658bd91bf834" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/AbstratCommandService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/AbstratCommandService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/bubble-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/bubble-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/filter-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/filter-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/heater-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/heater-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/init-command.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/init-command.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/power-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/power-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-actual-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-actual-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-expected-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/services/temperature-expected-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/state-command/state-command.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/state-command/state-command.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/state-command/state-command.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/state-command/state-command.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/state-command/state-command.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/state-command/state-command.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab1/tab1.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/command-list-item/command-list-item.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/command-list-item/command-list-item.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/command-list-item/command-list-item.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/AbstractCommand.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/AbstractCommand.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/DefaultCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/DefaultCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziBubbleCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziBubbleCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziFilterCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziFilterCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziHeaterCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziHeaterCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziPowerCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziPowerCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureActualCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziTemperatureActualCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziTemperatureExpectedCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziTemperatureExpectedCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/model/JacuzziWifiCommand.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/model/JacuzziWifiCommand.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab2/tab2.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tab3/tab3.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tab3/tab3.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tabs/tabs-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tabs/tabs-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/tabs/tabs.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/tabs/tabs.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mosquitto/log/mosquitto.log" beforeDir="false" afterPath="$PROJECT_DIR$/mosquitto/log/mosquitto.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaccuzi-control/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jaccuzi-control/src/app/app.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,32 +47,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/src/environments",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "ecc9f4520029df70e30d7dfbbd6d726d",
-    "ts.external.directory.path": "/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/src/environments&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ecc9f4520029df70e30d7dfbbd6d726d&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/loicpincon/Documents/PERSO/proejts/jaccuza-app/jaccuzi-control/node_modules/typescript/lib&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
