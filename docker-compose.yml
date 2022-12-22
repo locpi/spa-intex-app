@@ -26,7 +26,7 @@ services:
         ipv4_address: 172.22.3.11
   app:
     container_name: app
-    image: loic-app
+    image: loicpincon/spa-intex-back:1.1
     ports:
       - 6500:6500
     networks:
@@ -37,8 +37,7 @@ services:
       - db-mongo
   front:
     container_name: front
-    build:
-      dockerfile: jaccuzi-control/Dockerfile
+    image: loicpincon/spa-intex-front:1.1
     ports:
       - 80:80
     networks:
@@ -51,6 +50,5 @@ networks:
     driver: bridge
     name: spa-network
     ipam:
-      driver: bridge
       config:
         - subnet: 172.22.3.0/24
