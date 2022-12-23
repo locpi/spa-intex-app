@@ -1,4 +1,16 @@
 .idea/
 *.lck
 data/
-.idea/
+/back/back.iml
+/back/target
+
+mosquitto/
+
+front/.vscode
+front/.angular
+front/ios
+front/node_modules
+front/www
+/back/jaccuzi-spa.iml
+
+*.iml

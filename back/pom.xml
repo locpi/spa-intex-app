@@ -8,10 +8,10 @@
 		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>fr.loicpincon</groupId>
-	<artifactId>jaccuzi-spa</artifactId>
+	<groupId>fr.loicpincon.jacuzzi-spa</groupId>
+	<artifactId>back</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jaccuzi-spa</name>
+	<name>back</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -46,22 +46,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>com.google.cloud.tools</groupId>
-				<artifactId>jib-maven-plugin</artifactId>
-				<version>3.2.1</version>
-				<configuration>
-					<from>
-						<image>adoptopenjdk/openjdk11</image>
-					</from>
-					<to>
-						<image>loic-app</image>
-						<tags>
-							<tag>latest</tag>
-						</tags>
-					</to>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>

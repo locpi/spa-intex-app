@@ -1,8 +1,7 @@
 {
   "name": "INTEX SPA",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Loïc Pinçon",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -71,5 +70,5 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "ts-node": "~8.3.0"
   },
-  "description": "An Ionic project"
+  "description": "An Intex Spa control project"
 }
