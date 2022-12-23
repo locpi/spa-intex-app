@@ -14,3 +14,4 @@ front/www
 /back/jaccuzi-spa.iml
 
 *.iml
+.env
