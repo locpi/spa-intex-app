@@ -1,34 +1,45 @@
 services:
   mosquito:
-    container_name: moqsuito
+    container_name: mosquito-${ENV}
     image: eclipse-mosquitto
     mem_limit: 100m
     ports:
       - 1883:1883
       - 9001:9001
     volumes:
-      - ./mosquitto/config/:/mosquitto/config/
-      - ./mosquitto/log/:/mosquitto/log/
+      - ${MOSQUITO_CONFIG_FOLDER}/config/:/mosquitto/config/
+      - ${MOSQUITO_CONFIG_FOLDER}/log/:/mosquitto/log/
     networks:
       spa-network:
         ipv4_address: 172.22.3.10
   db-mongo:
-    container_name: mongo-dev
+    container_name: mongo-${ENV}
     image: mongo:5.0
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_DATABASE=spaintex
-      - MONGO_INITDB_ROOT_PASSWORD=pass
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
     ports:
       - '60017:27017'
     networks:
       spa-network:
         ipv4_address: 172.22.3.11
   app:
-    container_name: app
-    image: loicpincon/spa-intex-back:2.0
+    container_name: app-back-${ENV}
+    image: loicpincon/spa-intex-back:${VERSION_BACK}
     ports:
       - 6500:6500
+    environment:
+      - MQTT_HOSTNAME=${MQTT_HOSTNAME}
+      - MQTT_USERNAME=${MQTT_USERNAME}
+      - MQTT_PASSWORD=${MQTT_PASSWORD}
+      - MQTT_PORT=${MQTT_PORT}
+      - SPRING_DATA_MONGODB_HOST=${SPRING_DATA_MONGODB_HOST}
+      - SPRING_DATA_MONGODB_PORT=${SPRING_DATA_MONGODB_PORT}
+      - SPRING_DATA_MONGODB_USERNAME=${SPRING_DATA_MONGODB_USERNAME}
+      - SPRING_DATA_MONGODB_PASSWORD=${SPRING_DATA_MONGODB_PASSWORD}
+      - SPRING_DATA_MONGODB_DATABASE=${SPRING_DATA_MONGODB_DATABASE}
+      - SPRING_DATA_MONGODB_AUTHENTICATION_DATABASE=${SPRING_DATA_MONGODB_AUTHENTICATION_DATABASE}
     networks:
       spa-network:
         ipv4_address: 172.22.3.9
@@ -36,8 +47,8 @@ services:
       - mosquito
       - db-mongo
   front:
-    container_name: front
-    image: loicpincon/spa-intex-front:2.0
+    container_name: app-front-${ENV}
+    image: loicpincon/spa-intex-front:${VERSION_FRONT}
     ports:
       - 80:80
     networks:
@@ -48,7 +59,7 @@ services:
 networks:
   spa-network:
     driver: bridge
-    name: spa-network
+    name: spa-network-${ENV}
     ipam:
       config:
         - subnet: 172.22.3.0/24

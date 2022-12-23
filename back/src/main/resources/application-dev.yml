@@ -2,8 +2,16 @@ spring:
   data:
     mongodb:
       host: localhost
+      port: 60017
+      username: admin
+      password: pass
+      authentication-database: admin
+      database: spa-intex-dev
 mqtt:
   hostname: localhost
+  port: 1883
+  username: spa
+  password: spa
 logging:
   level:
     fr.loicpincon: debug
