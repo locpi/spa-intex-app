@@ -1,0 +1,20 @@
+services:
+  mosquito:
+    container_name: moqsuito
+    image: eclipse-mosquitto
+    mem_limit: 100m
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./mosquitto/config/:/mosquitto/config/
+      - ./mosquitto/log/:/mosquitto/log/
+  db-mongo:
+    container_name: mongo-dev
+    image: mongo:5.0
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_DATABASE=spaintex
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    ports:
+      - '60017:27017'

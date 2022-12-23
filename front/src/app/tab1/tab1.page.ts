@@ -51,7 +51,7 @@ export class Tab1Page implements OnInit {
   doubleLineChartMethod(data: TemperatureHistory[]) {
     const labels = data.map(f => {
       const d = new Date(f.date);
-      return d.getDay() + "/" + d.getMonth() + " " + d.getHours() + ":" + d.getMinutes();
+      return d.getDay() + "/" + d.getMonth() + " " + this.getHoursFormat(d);
     })
 
     this.doubleLineChart = new Chart(this.doubleLineCanvas.nativeElement, {
@@ -71,8 +71,16 @@ export class Tab1Page implements OnInit {
   }
 
 
+  private getHoursFormat(d: Date) {
+    let hours = ''
+    let minutes = ''
+    if(d.getHours()<10){
+      hours = '0';
+    }
+    if(d.getMinutes()<10){
+      minutes = '0';
+    }
+    return hours + d.getHours() + ":" + minutes+ d.getMinutes();
+  }
 }
 
-function onlyUnique(value: TemperatureHistory, index: any, self: any) {
-  return self.indexOf(value) === index;
-}
