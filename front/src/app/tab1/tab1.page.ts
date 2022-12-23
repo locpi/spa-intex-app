@@ -8,6 +8,7 @@ import {JacuzziTemperatureExpectedCommand} from "../model/JacuzziTemperatureExpe
 import {JacuzziTemperatureActualCommand} from "../model/JacuzziTemperatureActualCommand.model";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
+import {ErrorService, JacuzziError} from "../services/error.service";
 
 
 export class TemperatureHistory {
@@ -26,18 +27,21 @@ export class Tab1Page implements OnInit {
 
   doubleLineChart: any;
 
+  public jacError?: JacuzziError;
+
   constructor(public jacuzziFilterCommand: JacuzziFilterCommand,
               public jacuzziPowerCommand: JacuzziPowerCommand,
               public jacuzziBubbleCommand: JacuzziBubbleCommand,
               public jacuzziHeaterCommand: JacuzziHeaterCommand,
               public jacuzziTemperatureExpectedCommand: JacuzziTemperatureExpectedCommand,
               public jacuzziTemperatureActualCommand: JacuzziTemperatureActualCommand,
-              private http: HttpClient) {
+              private http: HttpClient,
+              private errorService: ErrorService) {
   }
 
   ngOnInit(): void {
     Chart.register(...registerables)
-
+    this.errorService.getError().subscribe(j => this.jacError = j);
   }
 
 
@@ -74,13 +78,18 @@ export class Tab1Page implements OnInit {
   private getHoursFormat(d: Date) {
     let hours = ''
     let minutes = ''
-    if(d.getHours()<10){
+    if (d.getHours() < 10) {
       hours = '0';
     }
-    if(d.getMinutes()<10){
+    if (d.getMinutes() < 10) {
       minutes = '0';
     }
-    return hours + d.getHours() + ":" + minutes+ d.getMinutes();
+    return hours + d.getHours() + ":" + minutes + d.getMinutes();
+  }
+
+  deleteError() {
+    this.errorService.deleteError();
+    this.jacError = undefined;
   }
 }
 

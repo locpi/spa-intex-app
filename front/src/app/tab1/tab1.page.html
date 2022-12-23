@@ -8,15 +8,16 @@
 
 <ion-content [fullscreen]="true">
   <ion-grid>
-    <ion-row *ngIf="false">
+    <ion-row *ngIf="jacError">
       <ion-col>
         <ion-card class="error-card">
           <ion-card-header>
-            <ion-card-title>Erreur</ion-card-title>
+            <ion-card-title>{{jacError.raison}}</ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            actif : {{jacuzziPowerCommand.getValue()}}
+            {{jacError.time | date : 'dd/MM/yyyy HH:mm:ss'}}
           </ion-card-content>
+          <ion-button (click)="deleteError()" fill="clear">Supprimer</ion-button>
         </ion-card>
       </ion-col>
     </ion-row>
@@ -55,7 +56,7 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <canvas #doubleLineCanvas style="position: relative; height:20vh; width:40vw"></canvas>
+        <canvas #doubleLineCanvas></canvas>
       </ion-col>
     </ion-row>
   </ion-grid>
