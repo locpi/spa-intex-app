@@ -1,6 +1,7 @@
 package fr.loicpincon.jaccuzispa.mqtt;
 
 import fr.loicpincon.jaccuzispa.mqtt.config.AbstractListener;
+import fr.loicpincon.jaccuzispa.service.ErrorService;
 import fr.loicpincon.jaccuzispa.service.SpaService;
 import fr.loicpincon.jaccuzispa.service.TemperatureHistoryService;
 import lombok.RequiredArgsConstructor;
@@ -21,6 +22,7 @@ public class SpaListener {
 
   private final TemperatureHistoryService temperatureHistoryService;
 
+  private final ErrorService errorService;
 
   @Bean
   public AbstractListener getTempAct() throws MqttException, InterruptedException {
@@ -80,6 +82,17 @@ public class SpaListener {
       @Override
       public void onMessage(String message) {
         service.setBubble(message);
+      }
+    };
+  }
+
+
+  @Bean
+  public AbstractListener getError() throws MqttException, InterruptedException {
+    return new AbstractListener(mqttClient, "pool/error") {
+      @Override
+      public void onMessage(String message) {
+        errorService.saveError(message);
       }
     };
   }
