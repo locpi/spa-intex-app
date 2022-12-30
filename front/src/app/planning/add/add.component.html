@@ -1,12 +1,9 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-button color="medium" (click)="cancel()">Cancel</ion-button>
+      <ion-button color="medium" (click)="cancel()">Fermer</ion-button>
     </ion-buttons>
     <ion-title>Séance SPA</ion-title>
-    <ion-buttons slot="end">
-      <ion-button (click)="confirm()">Confirm</ion-button>
-    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 <ion-content class="ion-padding">
@@ -21,8 +18,7 @@
       <ion-label>Température souhaitée</ion-label>
       <ion-input id="first-name" type="number" formControlName="temp"></ion-input>
     </ion-item>
-    <ion-button type="submit" class="ion-margin-start" [disabled]="!profileForm.valid" color="light">Clickable</ion-button>
-
+    <ion-button type="submit" class="ion-margin-start" [disabled]="!profileForm.valid" color="light">Ajouter</ion-button>
   </form>
 
 </ion-content>
